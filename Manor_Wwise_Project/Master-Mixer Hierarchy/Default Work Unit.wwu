@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{2301437F-AD61-4163-B5EC-1E74ED11F93D}" WorkUnitID="{0EAF1063-1CB2-42B0-9801-12B76AF2BAEC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Environmental" ID="{85BE6C47-F48F-48D0-A78E-E39A3FBBF7B1}">
+							<ChildrenList>
+								<AuxBus Name="Player_SFX" ID="{E56B1C6D-900F-4877-99A1-192F87CE043B}">
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Environment_SFX" ID="{DA53BAAC-96C4-4C26-B353-623513C2E250}">
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="UI_SFX" ID="{2782E780-E212-43A6-BAB2-DDE01ED09AFA}">
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="env_corridor" ID="{B33D84C4-EED7-4A5D-9E21-EBC72D71B72D}">
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="env_room_small" ID="{70E6BBC2-D187-478A-8D96-75728B63E60C}">
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="env_room_medium" ID="{BBE45A20-3CBB-426F-B1A4-9E1C80DF89EA}">
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="env_room_large" ID="{7E428D0D-48FF-4E63-9C2F-0547B0EBB02D}">
+									<ObjectLists/>
+								</AuxBus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Music" ID="{941DD07C-7B5A-498D-B288-0227886D05EC}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Dialogue" ID="{6F32DCB6-982C-42FF-B4B2-B6AC5C89C11E}">
+							<ChildrenList>
+								<AuxBus Name="Player_VO" ID="{84C12BD9-DBF1-42D0-90B7-394096243BF5}">
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="NPC_VO" ID="{4D9127E1-4163-4184-9467-E7B864AF9A3F}">
+									<ObjectLists/>
+								</AuxBus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="AmbienceMaster" ID="{B0457F5D-243A-442E-B723-D0C1F09D388F}">
+							<ChildrenList>
+								<Bus Name="AmbienceBeds" ID="{1467BB26-F3BB-49C6-9778-F23CAAF378BE}">
+									<ChildrenList>
+										<Bus Name="2DAmbienceBeds" ID="{1896106A-ABE5-4541-BEB7-8716BD6D2C33}">
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="Default_Motion_Device" ID="{570A3E30-8E2E-448B-94B6-6907700CDC87}" WorkUnitID="{0EAF1063-1CB2-42B0-9801-12B76AF2BAEC}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

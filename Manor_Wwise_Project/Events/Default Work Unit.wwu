@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D8DF74BC-CDC0-4D68-A486-936D9D7EBC86}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{D8DF74BC-CDC0-4D68-A486-936D9D7EBC86}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Main" ID="{CEB81965-CE30-4029-8042-2E917F272565}" ShortID="341171277">
+					<ChildrenList>
+						<Folder Name="Death" ID="{DC6ABE70-A915-4CEF-A1D2-D7C3C1560B12}" ShortID="784279167">
+							<ChildrenList>
+								<Event Name="Death_Player" ID="{7054C320-54DD-4E9F-BDD3-B3CACE464B30}">
+									<ChildrenList>
+										<Action Name="" ID="{831E424A-029E-4817-B83E-53D10E77F4B2}" ShortID="664157016">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Die" ID="{048FDD94-D06C-48CA-8065-25A8AE776703}" WorkUnitID="{C2EF832E-54F8-4D45-A526-53EEA2C7D070}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{4CDB69DA-A4E6-4DC2-9331-E1C877C1E0F4}" ShortID="883826024">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="OneDown" ID="{4AA27429-39A3-4ABA-B0AD-1BC297F769CA}" WorkUnitID="{6D6C78C9-CEFA-4DEF-8618-D37A333DC362}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Foot" ID="{923BF5FC-C5D7-4A36-8246-51CB215ECB0A}" ShortID="434352952">
+							<ChildrenList>
+								<Event Name="Footstep_Player" ID="{8FAB876B-60BE-40BD-B82E-523993255278}">
+									<ChildrenList>
+										<Action Name="" ID="{749044D6-22AD-4B1C-9171-66BFDCCDBDFD}" ShortID="180984782">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Footsteps" ID="{9AAD3C49-6FBB-4AA5-9151-3DB0D6C49981}" WorkUnitID="{C2EF832E-54F8-4D45-A526-53EEA2C7D070}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Grunt" ID="{E0C1C465-DE83-4B76-B4F0-59A55B456A3A}" ShortID="64581556"/>
+						<Folder Name="Pain" ID="{ED3BF0B0-3EBB-4496-A002-010A46D83686}" ShortID="486614307"/>
+						<Folder Name="Weapons" ID="{99FBEF31-B570-4DDE-B603-464F46ED5536}" ShortID="213319175"/>
+						<Folder Name="Misc" ID="{3C720607-A175-4DB6-9E10-A43F2DDBF83D}" ShortID="451287314"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Maps" ID="{BFBA35C4-79B1-4A62-9335-F9BDD2EC0952}" ShortID="1008735563">
+					<ChildrenList>
+						<Folder Name="NorthLobby" ID="{C3400334-9375-445C-83CA-34F4E36A3EDD}" ShortID="543152061">
+							<ChildrenList>
+								<Event Name="Enter_NorthLobby" ID="{07705B94-B6B5-4976-BE89-2465132D01CB}"/>
+								<Event Name="Exit_NorthLobby" ID="{2E17BA9E-0027-4C33-B50B-82647082EF15}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Parlor" ID="{F3928E3F-AFEC-4873-A8A8-CBD77CA78AE1}" ShortID="597314851">
+							<ChildrenList>
+								<Event Name="Enter_Parlor" ID="{423263E0-7A37-447F-A958-9E061914B661}"/>
+								<Event Name="Exit_Parlor" ID="{C041182A-57E2-4675-92BE-F7441FDDAD0F}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="StairHallFirst" ID="{6F1F45D1-E023-40C7-BA19-4D733FD1E3A7}" ShortID="763872101">
+							<ChildrenList>
+								<Event Name="Enter_StairtHallFirst" ID="{799218EA-B47B-4D09-B014-1668A1BB04B7}"/>
+								<Event Name="Exit_StiarHallFirst" ID="{72E65759-FC6D-4DE9-8951-52D8D9929897}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="DiningRoom" ID="{8FF85BCD-33DD-4E3F-9E0B-07CFC8CB4692}" ShortID="565576158">
+							<ChildrenList>
+								<Event Name="Enter_DiningRoom" ID="{55ED09BF-E080-4F4A-9724-8A2435911784}"/>
+								<Event Name="Exit_DIningRoom" ID="{F55238DC-761C-4321-879B-9C13B755B425}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="SouthLobby" ID="{09AE1321-99E8-48B9-8260-C2762E9042E2}" ShortID="517527573">
+							<ChildrenList>
+								<Event Name="Enter_SouthLobby" ID="{0B4EF3D8-B7DC-47DD-AC33-D3C20DB26BFE}"/>
+								<Event Name="Exit_SouthLobby" ID="{C7AFE7A2-B583-471E-B144-20272975D28C}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Vestibule" ID="{C99B115F-6F0B-4F7E-91BE-C134A1D227AE}" ShortID="151615714">
+							<ChildrenList>
+								<Event Name="Enter_Vestibule" ID="{BB8B0A11-5FAA-4F85-9491-3AA05679B43B}"/>
+								<Event Name="Exit_Vestibule" ID="{648E38AE-D27B-4E74-9BAF-A69C2252ED90}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="StairHallSecond" ID="{E3081B74-6432-4E9E-B8EB-9CFE45A0351D}" ShortID="76237000">
+							<ChildrenList>
+								<Event Name="Enter_StairHallSecond" ID="{6C32FD77-0A20-4B99-9523-63626F0233B2}"/>
+								<Event Name="Exit_StairHallSecond" ID="{A1316631-8249-493C-816D-697CB3F94F25}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="LinenCloset" ID="{43009B30-D0DE-43F8-9E54-6BF9F4FB3739}" ShortID="865551456">
+							<ChildrenList>
+								<Event Name="Enter_LinenCloset" ID="{2FD17D37-7A89-4DCB-9582-C0FE6B20A2B5}"/>
+								<Event Name="Exit_LinenCloset" ID="{1BAD9D22-28C4-4AFE-B422-CDFEEB5FE3EA}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="HallCloset" ID="{D7DBA045-7B25-4CB8-9D5C-0E760A9C5CA1}" ShortID="338455255">
+							<ChildrenList>
+								<Event Name="Enter_HallCloset" ID="{AF1D16FF-7E2C-475C-94C3-38C96CB43F3E}"/>
+								<Event Name="Exit_HallCloset" ID="{FECB4E01-B11D-4652-BE7D-C0CA7637648D}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="BilliardRoom" ID="{9DD37B44-A8BE-4FB6-B30B-A531EAB5FA65}" ShortID="766013214">
+							<ChildrenList>
+								<Event Name="Enter_BilliardRoom" ID="{CE64067B-BEAB-47C3-874D-376B593A5729}">
+									<ChildrenList>
+										<Action Name="" ID="{69484BFD-FD83-412A-8E66-38BD883E4006}" ShortID="352515201"/>
+									</ChildrenList>
+								</Event>
+								<Event Name="Exit_BilliardRoom" ID="{A1416F5F-46A2-438D-B64A-BEDB965181BD}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="NurseryChamber" ID="{FC91354D-F202-4CA2-8A21-A5CF34F78441}" ShortID="540549381">
+							<ChildrenList>
+								<Event Name="Enter_NurseryChamber" ID="{7C2F1100-6872-400D-9B9F-FD5781FB4014}"/>
+								<Event Name="Exit_NurseryChamber" ID="{79BF45BC-9E55-414A-968E-6186DE0F7DCA}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="ReceptionRoom" ID="{9CBFBCC9-1A4C-4901-B30C-AAF35B56F679}" ShortID="174772430">
+							<ChildrenList>
+								<Event Name="Enter_ReceptionRoom" ID="{59C4D223-ECCF-412F-996D-41797187B342}"/>
+								<Event Name="Exit_ReceptionRoom" ID="{4D4286ED-9048-462E-B649-620736FB7EAA}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="SewingRoom" ID="{0EB602A2-0B83-44FA-87A5-527FBDA22810}" ShortID="960163218">
+							<ChildrenList>
+								<Event Name="Enter_SewingRoom" ID="{C028AE59-C7BA-4C77-B454-6DEFD1B2241C}"/>
+								<Event Name="Exit_SewingRoom" ID="{8104FCD8-BB79-406B-8EC3-5E4981B0EC19}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CDCEF5EA-1F73-4CA8-BDE8-ABCA0AF1EC60}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="Music" ID="{CDCEF5EA-1F73-4CA8-BDE8-ABCA0AF1EC60}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Explore" ID="{6299B72A-DA5D-429B-B1C7-9D65577F9687}" ShortID="9101740">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{941DD07C-7B5A-498D-B288-0227886D05EC}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="SN_120_cello_ensemble_easylife_Amaj" ID="{E59C5C94-B169-4561-9B85-BCB3719064E6}" ShortID="234156085">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="SN_120_cello_ensemble_easylife_Amaj" ID="{24DAE059-EE2F-46F6-84E1-9CFD994757AE}" ShortID="262528844">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SN_120_cello_ensemble_easylife_Amaj" ID="{8CACFA4E-E206-4435-89DA-E2C620561C49}">
+											<Language>SFX</Language>
+											<AudioFile>SN_120_cello_ensemble_easylife_Amaj.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="362758259"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{BB056E39-9B53-474E-B396-CF1879D15A60}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{8AEFAA05-73C2-47A0-BA70-75984BA3A737}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="SN_120_cello_ensemble_easylife_Amaj" ID="{D209497A-D7DD-4F3A-AC35-FFD847B7B51C}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="SN_120_cello_ensemble_easylife_Amaj" ID="{8CACFA4E-E206-4435-89DA-E2C620561C49}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{DF368505-90FE-49FA-BF60-ECBD6CD58952}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>16</XPos>
+																								<YPos>-0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{683271F1-C39B-4198-B6F3-62EB47DD0009}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{3525D029-7848-49DE-AE3B-AF55746ABBB6}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="16000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="SN_120_full_ensemble_easylife_Amaj" ID="{92AB9C68-C4D1-4714-8861-52FA8A5ED780}" ShortID="373201735">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="SN_120_full_ensemble_easylife_Amaj" ID="{357B4C75-D3EA-4087-9DF9-7F2F46E82031}" ShortID="974129492">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SN_120_full_ensemble_easylife_Amaj" ID="{A74E4767-671D-4479-BC08-1302C1F2592F}">
+											<Language>SFX</Language>
+											<AudioFile>SN_120_full_ensemble_easylife_Amaj.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="949363182"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{F23D3290-8BFE-4475-8B0E-D65FB09F0FB3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{57609D7C-1CA1-4C5C-B6B9-F863FB4732C9}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="SN_120_full_ensemble_easylife_Amaj" ID="{2B735682-A5BA-4589-84DF-470087B1EA37}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="SN_120_full_ensemble_easylife_Amaj" ID="{A74E4767-671D-4479-BC08-1302C1F2592F}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{06A50F23-775C-4886-AAE8-129C11E414F9}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{0CE50CBB-1554-4F48-93A6-4B67A2DA8657}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="16000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="SN_120_high_cello_easylife_Amaj" ID="{A59C15F6-90BC-4F2F-9547-E9179BF34B0D}" ShortID="367100128">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="SN_120_high_cello_easylife_Amaj" ID="{32685525-18EA-403C-BFDF-9F3E67BC23A1}" ShortID="798667633">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SN_120_high_cello_easylife_Amaj" ID="{E54034AA-356C-4B0E-A12D-74CE6619EBCF}">
+											<Language>SFX</Language>
+											<AudioFile>SN_120_high_cello_easylife_Amaj.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="726250117"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{54766C7D-5ECF-493F-A853-C5502AF95686}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{9F1FA587-E818-4CBA-BFB3-12B1B104AF43}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="SN_120_high_cello_easylife_Amaj" ID="{57BEE2D0-57AE-46B0-A213-173FE8EF7085}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="SN_120_high_cello_easylife_Amaj" ID="{E54034AA-356C-4B0E-A12D-74CE6619EBCF}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{EC5ADD2A-9906-4D42-973C-01CC51769D31}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{EC3C4420-DF21-49AC-9057-10337F5658CA}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="16000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="SN_120_high_piano_easylife_Amaj" ID="{D06F72BE-18B2-4A43-89D8-628E69C8EA82}" ShortID="685526790">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="SN_120_high_piano_easylife_Amaj" ID="{D3BA8042-C04C-43E5-BC3E-85CF016630DC}" ShortID="1030740713">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SN_120_high_piano_easylife_Amaj" ID="{378D0D7E-C4AC-4610-BB03-2D383ED251A7}">
+											<Language>SFX</Language>
+											<AudioFile>SN_120_high_piano_easylife_Amaj.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="896803835"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{631711E6-F9D5-4FA5-B8DF-45B53D0088B7}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{EF3B67EA-F5EF-4F3D-AA42-164E2E12E698}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="SN_120_high_piano_easylife_Amaj" ID="{9D507C13-38D9-441F-BED0-E1B8502C8E67}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="SN_120_high_piano_easylife_Amaj" ID="{378D0D7E-C4AC-4610-BB03-2D383ED251A7}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{D434810C-E0AA-4E1C-9137-65BDE006BE3F}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{6747C980-C177-4AF3-8069-DB548C3596FF}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="16000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="SN_120_low_cello_easylife_Amaj" ID="{7D0BCC61-77AD-4B7A-B4FF-6C125E523E41}" ShortID="193147179">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="SN_120_low_cello_easylife_Amaj" ID="{A85BC46F-EA11-4C63-AB29-EFD6192CBEEE}" ShortID="82376303">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SN_120_low_cello_easylife_Amaj" ID="{16CF9AE9-3FBC-422D-8646-D8BBADB30AEB}">
+											<Language>SFX</Language>
+											<AudioFile>SN_120_low_cello_easylife_Amaj.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="430991626"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{9004920A-0A01-436E-A68E-F437E0CE7E91}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{3C266739-736A-446F-BEB0-0F6A7312A981}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="SN_120_low_cello_easylife_Amaj" ID="{43A706C5-BF8A-4C26-AE9A-46DB86FE2B89}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="SN_120_low_cello_easylife_Amaj" ID="{16CF9AE9-3FBC-422D-8646-D8BBADB30AEB}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{5DF62F11-D760-4795-978B-8362FC0D9485}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{27C6C3EB-107E-4201-8E3D-64B4566BEC36}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="16000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="SN_120_low_piano_easylife_Amaj" ID="{C90BFB36-BE5A-49F5-B7B5-BA0C499FE66D}" ShortID="698356601">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="SN_120_low_piano_easylife_Amaj" ID="{70E4EDE8-286D-4A3B-9BA1-F9D6F9BCBE76}" ShortID="595224102">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SN_120_low_piano_easylife_Amaj" ID="{6F5B7F22-2C7C-40FC-B3E9-F0B4FCBDD80D}">
+											<Language>SFX</Language>
+											<AudioFile>SN_120_low_piano_easylife_Amaj.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="90065303"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5E878564-1E3B-4A14-9942-D9D829B10687}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{923B8C8F-841E-42C8-9AAA-4B856D9D744F}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="SN_120_low_piano_easylife_Amaj" ID="{AB889B84-4931-4482-B5CE-8367AA2B5DBA}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="SN_120_low_piano_easylife_Amaj" ID="{6F5B7F22-2C7C-40FC-B3E9-F0B4FCBDD80D}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{85BAC7BE-8318-4B33-B24F-E27252550604}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{8D1FC8A2-3542-44BB-A2B9-69B717D51F17}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="16000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="SN_120_mid_cello_easylife_Amaj" ID="{1F3BF591-98BD-435F-8EEA-B728958EF03B}" ShortID="302125108">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="SN_120_mid_cello_easylife_Amaj" ID="{06F7651A-860E-4438-A4D3-9565DF84168D}" ShortID="172878113">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SN_120_mid_cello_easylife_Amaj" ID="{846A1127-E6A7-43BB-91FA-2BBD4E520604}">
+											<Language>SFX</Language>
+											<AudioFile>SN_120_mid_cello_easylife_Amaj.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="82926609"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0C855B4D-4CE4-41EB-B310-795DC49C830C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{D0AE6D08-229A-486D-A890-AC714FD7D8A7}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="SN_120_mid_cello_easylife_Amaj" ID="{D670EF54-D7FC-47E9-95BA-C97F09A2E9C3}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="SN_120_mid_cello_easylife_Amaj" ID="{846A1127-E6A7-43BB-91FA-2BBD4E520604}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{31DFADE3-6B2C-400E-8F96-F6714DD421B3}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{15557DD6-C6FB-4B37-BB31-3A55D537C1A0}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="16000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="SN_120_mid_piano_easylife_Amaj" ID="{C13A9410-F355-4EA7-B4C5-5CCECAD62246}" ShortID="688908869">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="SN_120_mid_piano_easylife_Amaj" ID="{9C862395-3D6D-4C67-922F-624A5F0502BB}" ShortID="988326479">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SN_120_mid_piano_easylife_Amaj" ID="{3025F671-9E3A-4A8F-A96A-D7D1DB414E5A}">
+											<Language>SFX</Language>
+											<AudioFile>SN_120_mid_piano_easylife_Amaj.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="798249629"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{EE62EC26-4B45-4C50-9018-57945CE501F7}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{FE94E83A-15ED-44E2-B562-4035C7B6B046}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="SN_120_mid_piano_easylife_Amaj" ID="{37731F69-85AF-4D9E-8728-4A9EA897A5F6}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="SN_120_mid_piano_easylife_Amaj" ID="{3025F671-9E3A-4A8F-A96A-D7D1DB414E5A}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{42DC14CC-F787-471C-886E-3B0F8E7C4E52}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{0F571F75-ED5C-4380-B573-78A7B8DD1240}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="16000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="SN_120_piano_ensemble_easylife_Amaj" ID="{94935493-8B36-4584-91B6-2166365E484A}" ShortID="290140783">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="SN_120_piano_ensemble_easylife_Amaj" ID="{7C431EF2-CB86-4861-8E5B-8D9CFCA89B66}" ShortID="915823386">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SN_120_piano_ensemble_easylife_Amaj" ID="{764EA614-2469-42B8-B6CD-FD5B44599A79}">
+											<Language>SFX</Language>
+											<AudioFile>SN_120_piano_ensemble_easylife_Amaj.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="403662102"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{73938276-B6DB-4443-AFBD-6547E4A46CEC}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{008192C5-6A11-476A-9EA3-B2E97DCA070D}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="SN_120_piano_ensemble_easylife_Amaj" ID="{3C486E53-E64C-4AEC-B0D9-450FBAF8BD27}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="SN_120_piano_ensemble_easylife_Amaj" ID="{764EA614-2469-42B8-B6CD-FD5B44599A79}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{8F7F13C8-E858-4868-9BD1-54D81DE32FA9}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{C3191F25-ADA7-447B-890C-ACAA4F4DA113}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="16000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{3AB37E82-5364-4E66-81BE-41D2E3D2E3A1}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{E992160E-EA40-4BB9-A37B-9CADF5C68656}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{858B0BC0-4814-4486-9E9E-F3AD9AA106DA}" ShortID="730321260">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+								<Property Name="PlayMode" Type="int16" Value="2"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{45239278-1293-4110-ABCF-F227789BCB69}" ShortID="438951376">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="SN_120_full_ensemble_easylife_Amaj" ID="{92AB9C68-C4D1-4714-8861-52FA8A5ED780}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{B520652A-5527-4A3A-BC2D-C23998BCCD66}" ShortID="843645452">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<SegmentRef Name="SN_120_piano_ensemble_easylife_Amaj" ID="{94935493-8B36-4584-91B6-2166365E484A}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{A3A17360-1A7C-4D97-B857-8A7DEFAD0FF2}" ShortID="361585433">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<SegmentRef Name="SN_120_cello_ensemble_easylife_Amaj" ID="{E59C5C94-B169-4561-9B85-BCB3719064E6}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{DA9FC7EE-7156-4400-892F-CDEEA9CA73B3}" ShortID="639327346">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="2"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{C83EAB44-56A0-4E67-8062-4EFD7C9CFD4A}" ShortID="303825196">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="SN_120_high_cello_easylife_Amaj" ID="{A59C15F6-90BC-4F2F-9547-E9179BF34B0D}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{4613DFA4-D7A3-493B-85B4-C36D3A1D4B7F}" ShortID="722419368">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>75</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="SN_120_mid_cello_easylife_Amaj" ID="{1F3BF591-98BD-435F-8EEA-B728958EF03B}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{3BB3A9F1-DB94-4578-9BCE-2EDC889E141C}" ShortID="1024852621">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>75</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="SN_120_low_cello_easylife_Amaj" ID="{7D0BCC61-77AD-4B7A-B4FF-6C125E523E41}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{A84E6C6F-F952-4505-ABD7-3A709001E46A}" ShortID="767228600">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="2"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{06A65A53-C6C2-46B2-8C65-37F85A124C05}" ShortID="655050245">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="SN_120_high_piano_easylife_Amaj" ID="{D06F72BE-18B2-4A43-89D8-628E69C8EA82}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{53CDF02B-39EC-462C-8DC3-50A5353CA562}" ShortID="936077426">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>25</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="SN_120_mid_piano_easylife_Amaj" ID="{C13A9410-F355-4EA7-B4C5-5CCECAD62246}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{09D2C5BA-F706-4B51-8FFE-C04DC1D01BF3}" ShortID="362356071">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>25</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="SN_120_low_piano_easylife_Amaj" ID="{C90BFB36-BE5A-49F5-B7B5-BA0C499FE66D}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

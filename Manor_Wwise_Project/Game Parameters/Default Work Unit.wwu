@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A99A52CD-F7AE-4558-932F-06DD4EC7582E}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{A99A52CD-F7AE-4558-932F-06DD4EC7582E}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="MusicVolume" ID="{C7C520E2-EFCC-47F9-ADBA-117514F8DF11}"/>
+				<GameParameter Name="PlayerHealth" ID="{EFECCD58-B7F8-4ADD-AE9C-0F5A74B56001}"/>
+				<GameParameter Name="SFXVolume" ID="{42073DBF-17FF-4D9C-BF77-C912482E301C}"/>
+				<GameParameter Name="VoxVolume" ID="{E6C3D059-5103-4D6C-BCC6-8789A7F00889}"/>
+				<GameParameter Name="TimeOfDay_RTPC" ID="{1ABBF5DD-C076-43E5-96E3-B79E83640A8E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="12"/>
+						<Property Name="Max" Type="Real64" Value="24"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

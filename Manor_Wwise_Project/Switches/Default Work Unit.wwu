@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{20CA601C-3BAF-4A42-ADA6-0B88734B4003}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{20CA601C-3BAF-4A42-ADA6-0B88734B4003}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Foot" ID="{DEA2BAAF-0F66-45DF-B9D9-CB0E74CE50E5}">
+					<ChildrenList>
+						<Switch Name="Left" ID="{2A33F89B-0A4C-42C9-B271-45FB6146F45F}"/>
+						<Switch Name="Right" ID="{2762A70B-30AD-4549-B89D-6342A8B899F9}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Material" ID="{8B80E3FE-B635-4562-8CE8-7175D9A8E7F0}">
+					<ChildrenList>
+						<Switch Name="Wood" ID="{2D866810-284F-47A7-9B68-173F042BDE28}"/>
+						<Switch Name="Wood_Creaky" ID="{E57E688C-B7B1-4632-AB91-240DC87F4878}"/>
+						<Switch Name="Wood_Stairs" ID="{6A1AEA08-1F2F-4AC6-8D8C-ADD5D045BA69}"/>
+						<Switch Name="Carpet" ID="{82EA94D1-421B-4717-AA63-968228DBC300}"/>
+						<Switch Name="Carpet_Stairs" ID="{E42E49B3-0433-47B8-865F-A548BB9E5D3B}"/>
+						<Switch Name="Metal_Stairs" ID="{31CD30CE-BF34-4197-9166-9D725D0D5BEB}"/>
+						<Switch Name="Tile" ID="{7E9510BD-3D2C-4387-8392-474AFD4F8DB9}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

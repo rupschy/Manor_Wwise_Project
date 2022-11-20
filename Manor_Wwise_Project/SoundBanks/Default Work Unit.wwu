@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CDCCB755-2114-493E-AB1E-0EE289D5B47E}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{CDCCB755-2114-493E-AB1E-0EE289D5B47E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Music" ID="{BA873404-534D-4A44-AF66-509645FD9E49}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music" ID="{E881496D-1964-4786-9C8D-92488D051198}" WorkUnitID="{05F853F5-8512-4A87-9DC3-D136536A5A80}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="PlayerSoundBank" ID="{BB757417-609C-4908-91B5-9EA2BB78BEAE}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="NPCSoundBank" ID="{5C510A63-32F0-49C3-85C5-FDC2E70B9ACE}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
