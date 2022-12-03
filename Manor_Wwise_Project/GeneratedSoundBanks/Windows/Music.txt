@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Music\Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	82926609	SN_120_mid_cello_easylife_Amaj	G:\Documents\GitHub\Manor_Wwise_Project\Manor_Wwise_Project\.cache\Windows\SFX\SN_120_mid_cello_easylife_Amaj_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\SN_120_mid_cello_easylife_Amaj\SN_120_mid_cello_easylife_Amaj		2822608
+	90065303	SN_120_low_piano_easylife_Amaj	G:\Documents\GitHub\Manor_Wwise_Project\Manor_Wwise_Project\.cache\Windows\SFX\SN_120_low_piano_easylife_Amaj_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\SN_120_low_piano_easylife_Amaj\SN_120_low_piano_easylife_Amaj		2822608
+	362758259	SN_120_cello_ensemble_easylife_Amaj	G:\Documents\GitHub\Manor_Wwise_Project\Manor_Wwise_Project\.cache\Windows\SFX\SN_120_cello_ensemble_easylife_Amaj_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\SN_120_cello_ensemble_easylife_Amaj\SN_120_cello_ensemble_easylife_Amaj		2822608
+	403662102	SN_120_piano_ensemble_easylife_Amaj	G:\Documents\GitHub\Manor_Wwise_Project\Manor_Wwise_Project\.cache\Windows\SFX\SN_120_piano_ensemble_easylife_Amaj_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\SN_120_piano_ensemble_easylife_Amaj\SN_120_piano_ensemble_easylife_Amaj		2822608
+	430991626	SN_120_low_cello_easylife_Amaj	G:\Documents\GitHub\Manor_Wwise_Project\Manor_Wwise_Project\.cache\Windows\SFX\SN_120_low_cello_easylife_Amaj_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\SN_120_low_cello_easylife_Amaj\SN_120_low_cello_easylife_Amaj		2822608
+	726250117	SN_120_high_cello_easylife_Amaj	G:\Documents\GitHub\Manor_Wwise_Project\Manor_Wwise_Project\.cache\Windows\SFX\SN_120_high_cello_easylife_Amaj_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\SN_120_high_cello_easylife_Amaj\SN_120_high_cello_easylife_Amaj		2822608
+	798249629	SN_120_mid_piano_easylife_Amaj	G:\Documents\GitHub\Manor_Wwise_Project\Manor_Wwise_Project\.cache\Windows\SFX\SN_120_mid_piano_easylife_Amaj_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\SN_120_mid_piano_easylife_Amaj\SN_120_mid_piano_easylife_Amaj		2822608
+	896803835	SN_120_high_piano_easylife_Amaj	G:\Documents\GitHub\Manor_Wwise_Project\Manor_Wwise_Project\.cache\Windows\SFX\SN_120_high_piano_easylife_Amaj_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\SN_120_high_piano_easylife_Amaj\SN_120_high_piano_easylife_Amaj		2822608
+	949363182	SN_120_full_ensemble_easylife_Amaj	G:\Documents\GitHub\Manor_Wwise_Project\Manor_Wwise_Project\.cache\Windows\SFX\SN_120_full_ensemble_easylife_Amaj_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\SN_120_full_ensemble_easylife_Amaj\SN_120_full_ensemble_easylife_Amaj		2822608
+

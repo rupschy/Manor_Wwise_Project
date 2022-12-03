@@ -1,0 +1,93 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4280509423	AmbTimeOfDay			\AmbienceSwitches\AmbTimeOfDay	
+
+Switch	ID	Name	Switch Group			Notes
+	311764537	Day	AmbTimeOfDay			
+	1011622525	Night	AmbTimeOfDay			
+	1924633667	Morning	AmbTimeOfDay			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	137378142	PlayerEntersLocation			\Default Work Unit\PlayerEntersLocation	
+	481714212	PlayerInWater			\Default Work Unit\PlayerInWater	
+	1602053271	PlayerLocation			\Default Work Unit\PlayerLocation	
+	2807514232	PlayerExitsLocation			\Default Work Unit\PlayerExitsLocation	
+	3168878928	PlayerFear			\Default Work Unit\PlayerFear	
+
+State	ID	Name	State Group			Notes
+	421571784	PlayerEnterCloset	PlayerEntersLocation			
+	748895195	None	PlayerEntersLocation			
+	1024864749	PlayerEnterMedium	PlayerEntersLocation			
+	1622071117	PlayerEnterLarge	PlayerEntersLocation			
+	3271942337	PlayerEnterHall	PlayerEntersLocation			
+	3413259365	PlayerEnterSmall	PlayerEntersLocation			
+	748895195	None	PlayerInWater			
+	979470758	Yes	PlayerInWater			
+	1668749452	No	PlayerInWater			
+	28587383	LivingRoom	PlayerLocation			
+	109821287	HallwayStairsFirst	PlayerLocation			
+	439497159	NurseryChamber	PlayerLocation			
+	456044226	NorthLobby	PlayerLocation			
+	748895195	None	PlayerLocation			
+	1011990504	SouthLobby	PlayerLocation			
+	1304168508	HallCloset	PlayerLocation			
+	1334211925	ReceptionRoom	PlayerLocation			
+	1584684893	Parlor	PlayerLocation			
+	2008665907	LinenCloset	PlayerLocation			
+	2198133169	Hallway	PlayerLocation			
+	2262472791	DiningRoom	PlayerLocation			
+	3180900846	HallwaysStairsSecond	PlayerLocation			
+	3568132359	BilliardRoom	PlayerLocation			
+	3569598406	Vestibule	PlayerLocation			
+	3975438029	SewingRoom	PlayerLocation			
+	46007318	PlayerExitCloset	PlayerExitsLocation			
+	673227403	PlayerExitHall	PlayerExitsLocation			
+	748895195	None	PlayerExitsLocation			
+	1217918719	PlayerExitMedium	PlayerExitsLocation			
+	2557678619	PlayerExitLarge	PlayerExitsLocation			
+	3581668615	PlayerExitSmall	PlayerExitsLocation			
+	748895195	None	PlayerFear			
+	1513120207	OneDown	PlayerFear			
+	1784332449	TwoDown	PlayerFear			
+	3015712011	ZeroDown	PlayerFear			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
+	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
+	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
+	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
+	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
+	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
+	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
+	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
+	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
+	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	985987111	Motion Factory Bus			\Default Work Unit\Motion Factory Bus	
+	1779514131	2DAmbienceBeds			\Default Work Unit\Master Audio Bus\AmbienceMaster\AmbienceBeds\2DAmbienceBeds	
+	1834684777	AmbienceBeds			\Default Work Unit\Master Audio Bus\AmbienceMaster\AmbienceBeds	
+	1973600711	Environmental			\Default Work Unit\Master Audio Bus\Environmental	
+	2611281843	AmbienceMaster			\Default Work Unit\Master Audio Bus\AmbienceMaster	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3930136735	Dialogue			\Default Work Unit\Master Audio Bus\Dialogue	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	194525819	env_corridor			\Default Work Unit\Master Audio Bus\Environmental\env_corridor	
+	817096458	Player_SFX			\Default Work Unit\Master Audio Bus\Environmental\Player_SFX	
+	834715908	env_room_large			\Default Work Unit\Master Audio Bus\Environmental\env_room_large	
+	1805679204	Environment_SFX			\Default Work Unit\Master Audio Bus\Environmental\Environment_SFX	
+	2320572428	env_room_small			\Default Work Unit\Master Audio Bus\Environmental\env_room_small	
+	3563481019	UI_SFX			\Default Work Unit\Master Audio Bus\Environmental\UI_SFX	
+	3627647978	env_room_medium			\Default Work Unit\Master Audio Bus\Environmental\env_room_medium	
+	4007621200	Player_VO			\Default Work Unit\Master Audio Bus\Dialogue\Player_VO	
+	4294123248	NPC_VO			\Default Work Unit\Master Audio Bus\Dialogue\NPC_VO	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6D6C78C9-CEFA-4DEF-8618-D37A333DC362}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{6D6C78C9-CEFA-4DEF-8618-D37A333DC362}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="PlayerFear" ID="{F7B7E136-648A-4330-81A5-610BC104C5A5}">
+					<ChildrenList>
+						<State Name="None" ID="{8292F739-184F-413C-8422-445BC2C186FA}"/>
+						<State Name="ZeroDown" ID="{CDD7519D-8D7B-4131-9913-12F4C1086BEC}"/>
+						<State Name="OneDown" ID="{4AA27429-39A3-4ABA-B0AD-1BC297F769CA}"/>
+						<State Name="TwoDown" ID="{5F625530-1755-4615-B3E3-6429320703F4}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="PlayerInWater" ID="{8CECFA64-58D3-4D0B-B8F2-FEBA57FCBDD0}">
+					<ChildrenList>
+						<State Name="None" ID="{E59ADD8E-F27D-4540-9F8E-78276A626566}"/>
+						<State Name="No" ID="{67D356CC-4107-498B-B5C2-04A8316071A2}"/>
+						<State Name="Yes" ID="{98AACC21-DC7F-4D74-A8B3-B7ECFEC2CBD0}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="PlayerLocation" ID="{CEC1F423-38C8-4CC7-87AB-745A191655CA}">
+					<ChildrenList>
+						<State Name="None" ID="{651FCA19-0AA2-4756-86C9-5B7050340A2E}"/>
+						<State Name="BilliardRoom" ID="{17B8C7AE-0AAE-4DC5-8964-9126CB4EA91C}"/>
+						<State Name="Vestibule" ID="{374190E0-67C8-4E92-BE2B-143A8F0F8D6C}"/>
+						<State Name="HallwayStairsFirst" ID="{DF3F1C7E-8C4A-4D2B-8D96-3517FB45124F}"/>
+						<State Name="HallwaysStairsSecond" ID="{16DF457F-A7C7-46F0-BF97-69068C057C39}"/>
+						<State Name="NurseryChamber" ID="{98EDAC42-F0B1-4760-8E5E-932B15B05DA9}"/>
+						<State Name="Hallway" ID="{9D32EE1E-6F4E-4D84-8B41-B4BE582CB6E0}"/>
+						<State Name="DiningRoom" ID="{0B425029-51FB-4510-859E-B5A33DB0D659}"/>
+						<State Name="LivingRoom" ID="{23B071A3-07A9-483B-B2ED-416C735EBB30}"/>
+						<State Name="LinenCloset" ID="{149DD902-668F-4664-9BCF-EB600F7713EF}"/>
+						<State Name="HallCloset" ID="{0D4C6211-5379-459D-BB43-31F4CC374A42}"/>
+						<State Name="NorthLobby" ID="{E37F12E3-DBB3-4FB8-B6D3-E1412C1FF942}"/>
+						<State Name="SouthLobby" ID="{893505AA-B28D-4A62-B475-DF45CA820570}"/>
+						<State Name="Parlor" ID="{1CC1C81A-60F6-49ED-BA22-4405C37D6247}"/>
+						<State Name="SewingRoom" ID="{76A483D2-5F51-451D-899F-02A49EDD47DE}"/>
+						<State Name="ReceptionRoom" ID="{5E9A580A-699C-42C9-8C3C-F5FC94D7C385}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="PlayerEntersLocation" ID="{DC37DA93-E2FD-46E7-B946-F87995BC56D6}">
+					<ChildrenList>
+						<State Name="None" ID="{FEBD0395-2096-4E7C-8857-92DF1BFFD64C}"/>
+						<State Name="PlayerEnterSmall" ID="{AAC7BCE0-1DE2-4904-A126-1298000A3D66}"/>
+						<State Name="PlayerEnterHall" ID="{B6B06582-4B96-404B-99BB-4C0563CE0D17}"/>
+						<State Name="PlayerEnterCloset" ID="{E1E1F238-D75A-4306-B253-6E276556AB6A}"/>
+						<State Name="PlayerEnterMedium" ID="{1D46F01B-0AE0-4224-8725-E8759D9D1DEF}"/>
+						<State Name="PlayerEnterLarge" ID="{CE750437-A442-4690-9542-14200CAF03EC}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="PlayerExitsLocation" ID="{9F4495B5-233A-40FC-B9B8-9F0A8DFC757C}">
+					<ChildrenList>
+						<State Name="None" ID="{589846AB-DDC4-47F5-8F01-10FD50E1830E}"/>
+						<State Name="PlayerExitSmall" ID="{38C3DADE-649A-4AD9-97E7-53110C25CCF6}"/>
+						<State Name="PlayerExitHall" ID="{7A313C8D-8A36-481F-952E-AF3DC8E0F950}"/>
+						<State Name="PlayerExitCloset" ID="{A22EA988-B4B8-4D1F-8ECC-D70DC720F5BD}"/>
+						<State Name="PlayerExitMedium" ID="{859BCE01-6E71-4435-9F03-F688FF59D1C3}"/>
+						<State Name="PlayerExitLarge" ID="{A7385C9B-743B-4E7D-9D3C-63F074C51723}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

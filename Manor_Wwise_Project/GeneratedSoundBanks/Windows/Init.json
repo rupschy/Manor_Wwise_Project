@@ -1,0 +1,1036 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{049BC76C-424E-4EC3-9B70-4E721794622A}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{498E4E58-7756-4FE8-A204-72F61D0E0C2B}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{2301437F-AD61-4163-B5EC-1E74ED11F93D}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "985987111",
+      "Name": "Motion Factory Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Motion Factory Bus",
+      "GUID": "{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}"
+     },
+     {
+      "Id": "1779514131",
+      "Name": "2DAmbienceBeds",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\AmbienceMaster\\AmbienceBeds\\2DAmbienceBeds",
+      "GUID": "{1896106A-ABE5-4541-BEB7-8716BD6D2C33}"
+     },
+     {
+      "Id": "1834684777",
+      "Name": "AmbienceBeds",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\AmbienceMaster\\AmbienceBeds",
+      "GUID": "{1467BB26-F3BB-49C6-9778-F23CAAF378BE}"
+     },
+     {
+      "Id": "1973600711",
+      "Name": "Environmental",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environmental",
+      "GUID": "{85BE6C47-F48F-48D0-A78E-E39A3FBBF7B1}"
+     },
+     {
+      "Id": "2611281843",
+      "Name": "AmbienceMaster",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\AmbienceMaster",
+      "GUID": "{B0457F5D-243A-442E-B723-D0C1F09D388F}"
+     },
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3930136735",
+      "Name": "Dialogue",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Dialogue",
+      "GUID": "{6F32DCB6-982C-42FF-B4B2-B6AC5C89C11E}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music",
+      "GUID": "{941DD07C-7B5A-498D-B288-0227886D05EC}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "194525819",
+      "Name": "env_corridor",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environmental\\env_corridor",
+      "GUID": "{B33D84C4-EED7-4A5D-9E21-EBC72D71B72D}"
+     },
+     {
+      "Id": "817096458",
+      "Name": "Player_SFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environmental\\Player_SFX",
+      "GUID": "{E56B1C6D-900F-4877-99A1-192F87CE043B}"
+     },
+     {
+      "Id": "834715908",
+      "Name": "env_room_large",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environmental\\env_room_large",
+      "GUID": "{7E428D0D-48FF-4E63-9C2F-0547B0EBB02D}"
+     },
+     {
+      "Id": "1805679204",
+      "Name": "Environment_SFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environmental\\Environment_SFX",
+      "GUID": "{DA53BAAC-96C4-4C26-B353-623513C2E250}"
+     },
+     {
+      "Id": "2320572428",
+      "Name": "env_room_small",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environmental\\env_room_small",
+      "GUID": "{70E6BBC2-D187-478A-8D96-75728B63E60C}"
+     },
+     {
+      "Id": "3563481019",
+      "Name": "UI_SFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environmental\\UI_SFX",
+      "GUID": "{2782E780-E212-43A6-BAB2-DDE01ED09AFA}"
+     },
+     {
+      "Id": "3627647978",
+      "Name": "env_room_medium",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environmental\\env_room_medium",
+      "GUID": "{BBE45A20-3CBB-426F-B1A4-9E1C80DF89EA}"
+     },
+     {
+      "Id": "4007621200",
+      "Name": "Player_VO",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Dialogue\\Player_VO",
+      "GUID": "{84C12BD9-DBF1-42D0-90B7-394096243BF5}"
+     },
+     {
+      "Id": "4294123248",
+      "Name": "NPC_VO",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Dialogue\\NPC_VO",
+      "GUID": "{4D9127E1-4163-4184-9467-E7B864AF9A3F}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "151362964",
+      "Name": "PlayerHealth",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerHealth",
+      "GUID": "{EFECCD58-B7F8-4ADD-AE9C-0F5A74B56001}"
+     },
+     {
+      "Id": "161498954",
+      "Name": "VoxVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\VoxVolume",
+      "GUID": "{E6C3D059-5103-4D6C-BCC6-8789A7F00889}"
+     },
+     {
+      "Id": "796049864",
+      "Name": "RPM",
+      "ObjectPath": "\\Game Parameters\\Factory Motion\\RPM",
+      "GUID": "{9112AA05-F577-44FD-9F4E-4424158129E6}"
+     },
+     {
+      "Id": "822163944",
+      "Name": "SS_Air_RPM",
+      "ObjectPath": "\\Game Parameters\\Factory SoundSeed Air Game Syncs\\SS_Air_RPM",
+      "GUID": "{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"
+     },
+     {
+      "Id": "988953028",
+      "Name": "SFXVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SFXVolume",
+      "GUID": "{42073DBF-17FF-4D9C-BF77-C912482E301C}"
+     },
+     {
+      "Id": "1029930033",
+      "Name": "SS_Air_Fury",
+      "ObjectPath": "\\Game Parameters\\Factory SoundSeed Air Game Syncs\\SS_Air_Fury",
+      "GUID": "{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"
+     },
+     {
+      "Id": "1351367891",
+      "Name": "SS_Air_Fear",
+      "ObjectPath": "\\Game Parameters\\Factory SoundSeed Air Game Syncs\\SS_Air_Fear",
+      "GUID": "{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"
+     },
+     {
+      "Id": "1524500807",
+      "Name": "Playback_Rate",
+      "ObjectPath": "\\Game Parameters\\Factory Motion\\Playback_Rate",
+      "GUID": "{28387EE3-C13A-4316-B9C3-DB5C521624AF}"
+     },
+     {
+      "Id": "2346531308",
+      "Name": "MusicVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicVolume",
+      "GUID": "{C7C520E2-EFCC-47F9-ADBA-117514F8DF11}"
+     },
+     {
+      "Id": "2648548617",
+      "Name": "SS_Air_Month",
+      "ObjectPath": "\\Game Parameters\\Factory SoundSeed Air Game Syncs\\SS_Air_Month",
+      "GUID": "{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"
+     },
+     {
+      "Id": "3002758120",
+      "Name": "SS_Air_Freefall",
+      "ObjectPath": "\\Game Parameters\\Factory SoundSeed Air Game Syncs\\SS_Air_Freefall",
+      "GUID": "{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"
+     },
+     {
+      "Id": "3067665661",
+      "Name": "TimeOfDay_RTPC",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\TimeOfDay_RTPC",
+      "GUID": "{1ABBF5DD-C076-43E5-96E3-B79E83640A8E}"
+     },
+     {
+      "Id": "3074696722",
+      "Name": "SS_Air_Size",
+      "ObjectPath": "\\Game Parameters\\Factory SoundSeed Air Game Syncs\\SS_Air_Size",
+      "GUID": "{1329EBEF-A193-472E-A38C-64668B494879}"
+     },
+     {
+      "Id": "3203397129",
+      "Name": "SS_Air_TimeOfDay",
+      "ObjectPath": "\\Game Parameters\\Factory SoundSeed Air Game Syncs\\SS_Air_TimeOfDay",
+      "GUID": "{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"
+     },
+     {
+      "Id": "3715662592",
+      "Name": "SS_Air_Storm",
+      "ObjectPath": "\\Game Parameters\\Factory SoundSeed Air Game Syncs\\SS_Air_Storm",
+      "GUID": "{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"
+     },
+     {
+      "Id": "3847924954",
+      "Name": "SS_Air_Presence",
+      "ObjectPath": "\\Game Parameters\\Factory SoundSeed Air Game Syncs\\SS_Air_Presence",
+      "GUID": "{E3B7811A-7B2F-490F-B44F-5FE51B468041}"
+     },
+     {
+      "Id": "4160247818",
+      "Name": "SS_Air_Turbulence",
+      "ObjectPath": "\\Game Parameters\\Factory SoundSeed Air Game Syncs\\SS_Air_Turbulence",
+      "GUID": "{EDA87B19-73AA-40A0-9F19-2073606DB710}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "137378142",
+      "Name": "PlayerEntersLocation",
+      "ObjectPath": "\\States\\Default Work Unit\\PlayerEntersLocation",
+      "GUID": "{DC37DA93-E2FD-46E7-B946-F87995BC56D6}",
+      "States": [
+       {
+        "Id": "421571784",
+        "Name": "PlayerEnterCloset",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerEntersLocation\\PlayerEnterCloset",
+        "GUID": "{E1E1F238-D75A-4306-B253-6E276556AB6A}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerEntersLocation\\None",
+        "GUID": "{FEBD0395-2096-4E7C-8857-92DF1BFFD64C}"
+       },
+       {
+        "Id": "1024864749",
+        "Name": "PlayerEnterMedium",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerEntersLocation\\PlayerEnterMedium",
+        "GUID": "{1D46F01B-0AE0-4224-8725-E8759D9D1DEF}"
+       },
+       {
+        "Id": "1622071117",
+        "Name": "PlayerEnterLarge",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerEntersLocation\\PlayerEnterLarge",
+        "GUID": "{CE750437-A442-4690-9542-14200CAF03EC}"
+       },
+       {
+        "Id": "3271942337",
+        "Name": "PlayerEnterHall",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerEntersLocation\\PlayerEnterHall",
+        "GUID": "{B6B06582-4B96-404B-99BB-4C0563CE0D17}"
+       },
+       {
+        "Id": "3413259365",
+        "Name": "PlayerEnterSmall",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerEntersLocation\\PlayerEnterSmall",
+        "GUID": "{AAC7BCE0-1DE2-4904-A126-1298000A3D66}"
+       }
+      ]
+     },
+     {
+      "Id": "481714212",
+      "Name": "PlayerInWater",
+      "ObjectPath": "\\States\\Default Work Unit\\PlayerInWater",
+      "GUID": "{8CECFA64-58D3-4D0B-B8F2-FEBA57FCBDD0}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerInWater\\None",
+        "GUID": "{E59ADD8E-F27D-4540-9F8E-78276A626566}"
+       },
+       {
+        "Id": "979470758",
+        "Name": "Yes",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerInWater\\Yes",
+        "GUID": "{98AACC21-DC7F-4D74-A8B3-B7ECFEC2CBD0}"
+       },
+       {
+        "Id": "1668749452",
+        "Name": "No",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerInWater\\No",
+        "GUID": "{67D356CC-4107-498B-B5C2-04A8316071A2}"
+       }
+      ]
+     },
+     {
+      "Id": "1602053271",
+      "Name": "PlayerLocation",
+      "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation",
+      "GUID": "{CEC1F423-38C8-4CC7-87AB-745A191655CA}",
+      "States": [
+       {
+        "Id": "28587383",
+        "Name": "LivingRoom",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation\\LivingRoom",
+        "GUID": "{23B071A3-07A9-483B-B2ED-416C735EBB30}"
+       },
+       {
+        "Id": "109821287",
+        "Name": "HallwayStairsFirst",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation\\HallwayStairsFirst",
+        "GUID": "{DF3F1C7E-8C4A-4D2B-8D96-3517FB45124F}"
+       },
+       {
+        "Id": "439497159",
+        "Name": "NurseryChamber",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation\\NurseryChamber",
+        "GUID": "{98EDAC42-F0B1-4760-8E5E-932B15B05DA9}"
+       },
+       {
+        "Id": "456044226",
+        "Name": "NorthLobby",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation\\NorthLobby",
+        "GUID": "{E37F12E3-DBB3-4FB8-B6D3-E1412C1FF942}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation\\None",
+        "GUID": "{651FCA19-0AA2-4756-86C9-5B7050340A2E}"
+       },
+       {
+        "Id": "1011990504",
+        "Name": "SouthLobby",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation\\SouthLobby",
+        "GUID": "{893505AA-B28D-4A62-B475-DF45CA820570}"
+       },
+       {
+        "Id": "1304168508",
+        "Name": "HallCloset",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation\\HallCloset",
+        "GUID": "{0D4C6211-5379-459D-BB43-31F4CC374A42}"
+       },
+       {
+        "Id": "1334211925",
+        "Name": "ReceptionRoom",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation\\ReceptionRoom",
+        "GUID": "{5E9A580A-699C-42C9-8C3C-F5FC94D7C385}"
+       },
+       {
+        "Id": "1584684893",
+        "Name": "Parlor",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation\\Parlor",
+        "GUID": "{1CC1C81A-60F6-49ED-BA22-4405C37D6247}"
+       },
+       {
+        "Id": "2008665907",
+        "Name": "LinenCloset",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation\\LinenCloset",
+        "GUID": "{149DD902-668F-4664-9BCF-EB600F7713EF}"
+       },
+       {
+        "Id": "2198133169",
+        "Name": "Hallway",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation\\Hallway",
+        "GUID": "{9D32EE1E-6F4E-4D84-8B41-B4BE582CB6E0}"
+       },
+       {
+        "Id": "2262472791",
+        "Name": "DiningRoom",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation\\DiningRoom",
+        "GUID": "{0B425029-51FB-4510-859E-B5A33DB0D659}"
+       },
+       {
+        "Id": "3180900846",
+        "Name": "HallwaysStairsSecond",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation\\HallwaysStairsSecond",
+        "GUID": "{16DF457F-A7C7-46F0-BF97-69068C057C39}"
+       },
+       {
+        "Id": "3568132359",
+        "Name": "BilliardRoom",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation\\BilliardRoom",
+        "GUID": "{17B8C7AE-0AAE-4DC5-8964-9126CB4EA91C}"
+       },
+       {
+        "Id": "3569598406",
+        "Name": "Vestibule",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation\\Vestibule",
+        "GUID": "{374190E0-67C8-4E92-BE2B-143A8F0F8D6C}"
+       },
+       {
+        "Id": "3975438029",
+        "Name": "SewingRoom",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLocation\\SewingRoom",
+        "GUID": "{76A483D2-5F51-451D-899F-02A49EDD47DE}"
+       }
+      ]
+     },
+     {
+      "Id": "2807514232",
+      "Name": "PlayerExitsLocation",
+      "ObjectPath": "\\States\\Default Work Unit\\PlayerExitsLocation",
+      "GUID": "{9F4495B5-233A-40FC-B9B8-9F0A8DFC757C}",
+      "States": [
+       {
+        "Id": "46007318",
+        "Name": "PlayerExitCloset",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerExitsLocation\\PlayerExitCloset",
+        "GUID": "{A22EA988-B4B8-4D1F-8ECC-D70DC720F5BD}"
+       },
+       {
+        "Id": "673227403",
+        "Name": "PlayerExitHall",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerExitsLocation\\PlayerExitHall",
+        "GUID": "{7A313C8D-8A36-481F-952E-AF3DC8E0F950}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerExitsLocation\\None",
+        "GUID": "{589846AB-DDC4-47F5-8F01-10FD50E1830E}"
+       },
+       {
+        "Id": "1217918719",
+        "Name": "PlayerExitMedium",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerExitsLocation\\PlayerExitMedium",
+        "GUID": "{859BCE01-6E71-4435-9F03-F688FF59D1C3}"
+       },
+       {
+        "Id": "2557678619",
+        "Name": "PlayerExitLarge",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerExitsLocation\\PlayerExitLarge",
+        "GUID": "{A7385C9B-743B-4E7D-9D3C-63F074C51723}"
+       },
+       {
+        "Id": "3581668615",
+        "Name": "PlayerExitSmall",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerExitsLocation\\PlayerExitSmall",
+        "GUID": "{38C3DADE-649A-4AD9-97E7-53110C25CCF6}"
+       }
+      ]
+     },
+     {
+      "Id": "3168878928",
+      "Name": "PlayerFear",
+      "ObjectPath": "\\States\\Default Work Unit\\PlayerFear",
+      "GUID": "{F7B7E136-648A-4330-81A5-610BC104C5A5}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerFear\\None",
+        "GUID": "{8292F739-184F-413C-8422-445BC2C186FA}"
+       },
+       {
+        "Id": "1513120207",
+        "Name": "OneDown",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerFear\\OneDown",
+        "GUID": "{4AA27429-39A3-4ABA-B0AD-1BC297F769CA}"
+       },
+       {
+        "Id": "1784332449",
+        "Name": "TwoDown",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerFear\\TwoDown",
+        "GUID": "{5F625530-1755-4615-B3E3-6429320703F4}"
+       },
+       {
+        "Id": "3015712011",
+        "Name": "ZeroDown",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerFear\\ZeroDown",
+        "GUID": "{CDD7519D-8D7B-4131-9913-12F4C1086BEC}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2206205966",
+      "Name": "AmbRoomType",
+      "ObjectPath": "\\Switches\\AmbienceSwitches\\AmbRoomType",
+      "GUID": "{D6B533D0-CEFD-4953-88C4-3F8240615FB9}",
+      "Switches": [
+       {
+        "Id": "187046019",
+        "Name": "LargeRoom",
+        "ObjectPath": "\\Switches\\AmbienceSwitches\\AmbRoomType\\LargeRoom",
+        "GUID": "{2CDD6491-9ED6-44D9-A680-BE1139DAF87E}"
+       },
+       {
+        "Id": "1245295233",
+        "Name": "MediumRoom",
+        "ObjectPath": "\\Switches\\AmbienceSwitches\\AmbRoomType\\MediumRoom",
+        "GUID": "{AE350541-1B59-4EC1-9F97-92FD14A20225}"
+       },
+       {
+        "Id": "1289942167",
+        "Name": "Stairs",
+        "ObjectPath": "\\Switches\\AmbienceSwitches\\AmbRoomType\\Stairs",
+        "GUID": "{A8B30B91-7DE5-461A-91F8-8F304464EDED}"
+       },
+       {
+        "Id": "2198133169",
+        "Name": "Hallway",
+        "ObjectPath": "\\Switches\\AmbienceSwitches\\AmbRoomType\\Hallway",
+        "GUID": "{E7BF44E6-B934-44B9-9300-A59EBE69A342}"
+       },
+       {
+        "Id": "2933838247",
+        "Name": "SmallRoom",
+        "ObjectPath": "\\Switches\\AmbienceSwitches\\AmbRoomType\\SmallRoom",
+        "GUID": "{83258A8B-A560-464F-8376-F5A8D6CDD605}"
+       }
+      ]
+     },
+     {
+      "Id": "3031504797",
+      "Name": "Foot",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Foot",
+      "GUID": "{DEA2BAAF-0F66-45DF-B9D9-CB0E74CE50E5}",
+      "Switches": [
+       {
+        "Id": "4109362",
+        "Name": "Left",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Foot\\Left",
+        "GUID": "{2A33F89B-0A4C-42C9-B271-45FB6146F45F}"
+       },
+       {
+        "Id": "3893817417",
+        "Name": "Right",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Foot\\Right",
+        "GUID": "{2762A70B-30AD-4549-B89D-6342A8B899F9}"
+       }
+      ]
+     },
+     {
+      "Id": "3865314626",
+      "Name": "Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Material",
+      "GUID": "{8B80E3FE-B635-4562-8CE8-7175D9A8E7F0}",
+      "Switches": [
+       {
+        "Id": "985735929",
+        "Name": "Carpet_Stairs",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Carpet_Stairs",
+        "GUID": "{E42E49B3-0433-47B8-865F-A548BB9E5D3B}"
+       },
+       {
+        "Id": "1994379643",
+        "Name": "Wood_Stairs",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Wood_Stairs",
+        "GUID": "{6A1AEA08-1F2F-4AC6-8D8C-ADD5D045BA69}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Wood",
+        "GUID": "{2D866810-284F-47A7-9B68-173F042BDE28}"
+       },
+       {
+        "Id": "2412606308",
+        "Name": "Carpet",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Carpet",
+        "GUID": "{82EA94D1-421B-4717-AA63-968228DBC300}"
+       },
+       {
+        "Id": "2637588553",
+        "Name": "Tile",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Tile",
+        "GUID": "{7E9510BD-3D2C-4387-8392-474AFD4F8DB9}"
+       },
+       {
+        "Id": "2997709431",
+        "Name": "Metal_Stairs",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Metal_Stairs",
+        "GUID": "{31CD30CE-BF34-4197-9166-9D725D0D5BEB}"
+       },
+       {
+        "Id": "3917875680",
+        "Name": "Wood_Creaky",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Wood_Creaky",
+        "GUID": "{E57E688C-B7B1-4632-AB91-240DC87F4878}"
+       }
+      ]
+     },
+     {
+      "Id": "4280509423",
+      "Name": "AmbTimeOfDay",
+      "ObjectPath": "\\Switches\\AmbienceSwitches\\AmbTimeOfDay",
+      "GUID": "{ACF49CBF-36A7-47C1-B40D-B536069A923A}",
+      "GameParameterRef": {
+       "Id": "3067665661"
+      },
+      "Switches": [
+       {
+        "Id": "311764537",
+        "Name": "Day",
+        "ObjectPath": "\\Switches\\AmbienceSwitches\\AmbTimeOfDay\\Day",
+        "GUID": "{9C0E3B89-F12D-49B4-9F07-AF3D8CEBC74F}"
+       },
+       {
+        "Id": "1011622525",
+        "Name": "Night",
+        "ObjectPath": "\\Switches\\AmbienceSwitches\\AmbTimeOfDay\\Night",
+        "GUID": "{B6145963-52D4-4989-9BAE-36B15F9F5E7F}"
+       },
+       {
+        "Id": "1924633667",
+        "Name": "Morning",
+        "ObjectPath": "\\Switches\\AmbienceSwitches\\AmbTimeOfDay\\Morning",
+        "GUID": "{68CF6F4C-63E9-404D-ADF6-E13C39B3C7C3}"
+       }
+      ]
+     }
+    ],
+    "AcousticTextures": [
+     {
+      "Id": "504532776",
+      "Name": "Brick",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Brick",
+      "GUID": "{B086A5A9-F204-4C53-A838-BDB18B18F6D6}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "12"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "18"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "23"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "35"
+       }
+      ]
+     },
+     {
+      "Id": "513139656",
+      "Name": "Mountain",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Mountain",
+      "GUID": "{C5933731-001A-4AB4-98DD-9B033A8C8EAB}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "841620460",
+      "Name": "Concrete",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Concrete",
+      "GUID": "{5CF81C00-2896-4AE0-AF7C-3080BDABA682}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "6"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "6"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "6"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "14"
+       }
+      ]
+     },
+     {
+      "Id": "1755085759",
+      "Name": "Wood_Deep",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Wood_Deep",
+      "GUID": "{5246478E-C5DA-4E0C-A0DE-C98D1479529A}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "1"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "8"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "20"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "35"
+       }
+      ]
+     },
+     {
+      "Id": "1873957695",
+      "Name": "Anechoic",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Anechoic",
+      "GUID": "{8B0AC232-02E2-4EDE-BEAC-FDD1A900E3ED}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "100"
+       }
+      ]
+     },
+     {
+      "Id": "1970351858",
+      "Name": "Fabric",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Fabric",
+      "GUID": "{8381D532-DB6E-4EED-A7A3-BC7B0A0B8BA8}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "3"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "13"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "48"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "72"
+       }
+      ]
+     },
+     {
+      "Id": "2058049674",
+      "Name": "Wood",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Wood",
+      "GUID": "{1FFFBC96-6FE7-489E-BA6C-7C14A71391AE}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "32"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "25"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "20"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "35"
+       }
+      ]
+     },
+     {
+      "Id": "2412606308",
+      "Name": "Carpet",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Carpet",
+      "GUID": "{34227589-DC56-4260-96C4-B9F4B669092B}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "46"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "45"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "76"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "100"
+       }
+      ]
+     },
+     {
+      "Id": "2637588553",
+      "Name": "Tile",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Tile",
+      "GUID": "{A882DAC4-132A-47B7-BA9D-B9907BA29CC0}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "67"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "41"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "12"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "2928161104",
+      "Name": "Curtains",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Curtains",
+      "GUID": "{F8E69E33-5C97-4968-B508-A1535F2D66E8}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "7"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "60"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "84"
+       }
+      ]
+     },
+     {
+      "Id": "3195498748",
+      "Name": "Cork_Tiles",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Cork_Tiles",
+      "GUID": "{30D2C919-925F-4143-8906-3DBB3C4AE5E2}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "14"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "30"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "73"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "100"
+       }
+      ]
+     },
+     {
+      "Id": "3670307564",
+      "Name": "Drywall",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Drywall",
+      "GUID": "{68A4E3F4-4C0B-4687-A8B8-A84DB93DBC8F}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "2"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "2"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "2"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "2"
+       }
+      ]
+     },
+     {
+      "Id": "4168643977",
+      "Name": "Acoustic_Banner",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Acoustic_Banner",
+      "GUID": "{2F2D53F2-DACC-408E-8B88-98B1B52A26D6}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "37"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "100"
+       }
+      ]
+     },
+     {
+      "Id": "4262522749",
+      "Name": "Wood_Bright",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Wood_Bright",
+      "GUID": "{7B85D1E5-C1A2-4E63-9A13-CEC54B641ADC}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "32"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "25"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "10"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "9"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3EE543FF-D2A8-29E5-9D85-0C2CAD865DCF}"
+ }
+}

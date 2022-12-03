@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{1562D13C-41E8-4FA1-A341-D4CB726E2AEC}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{1562D13C-41E8-4FA1-A341-D4CB726E2AEC}" SchemaVersion="110">
 	<Effects>
 		<WorkUnit Name="Factory Convolution Reverb Effects Ambisonics" ID="{1562D13C-41E8-4FA1-A341-D4CB726E2AEC}" PersistMode="Standalone">
 			<ChildrenList>

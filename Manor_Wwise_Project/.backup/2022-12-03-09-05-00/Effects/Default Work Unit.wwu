@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{598DB295-514B-46FD-89CA-E02C91443CEB}" SchemaVersion="103">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{598DB295-514B-46FD-89CA-E02C91443CEB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="env_corridor" ID="{3419694C-6EA0-4573-B4CD-977F13D1560A}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="ERPattern" Type="int32" Value="18"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="env_room_small" ID="{EEC458C6-73F2-49DF-B618-26A14FBA3BA6}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="ERPattern" Type="int32" Value="22"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="env_room_medium" ID="{1EF9CF32-0365-4997-8D00-3070EAA35450}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="ERPattern" Type="int32" Value="25"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="env_room_large" ID="{EEC78E77-0EC7-4690-BEE1-718B3291E053}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+				<Effect Name="env_closet" ID="{2A928116-4394-471B-85FB-FAAE31BE0634}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="ERPattern" Type="int32" Value="27"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

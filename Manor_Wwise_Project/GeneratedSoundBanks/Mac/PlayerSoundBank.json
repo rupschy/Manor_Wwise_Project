@@ -1,0 +1,110 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "577248597",
+    "Type": "User",
+    "GUID": "{BB757417-609C-4908-91B5-9EA2BB78BEAE}",
+    "Language": "SFX",
+    "Hash": "{7863665D-77E5-7819-A7F3-76D1EA380ADC}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSoundBank",
+    "ShortName": "PlayerSoundBank",
+    "Path": "PlayerSoundBank.bnk",
+    "Media": [
+     {
+      "Id": "5785313",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_BASE_houseCreakLarge5.wav",
+      "CachePath": "SFX/env_BASE_houseCreakLarge5_10C4C929.wem"
+     },
+     {
+      "Id": "23874524",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_BASE_houseCreakLarge4.wav",
+      "CachePath": "SFX/env_BASE_houseCreakLarge4_10C4C929.wem"
+     },
+     {
+      "Id": "25386790",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_BASE_houseCreakLarge1.wav",
+      "CachePath": "SFX/env_BASE_houseCreakLarge1_10C4C929.wem"
+     },
+     {
+      "Id": "138464293",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_BASE_houseCreakLarge3.wav",
+      "CachePath": "SFX/env_BASE_houseCreakLarge3_10C4C929.wem"
+     },
+     {
+      "Id": "509444671",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_BASE_houseCreakLarge2.wav",
+      "CachePath": "SFX/env_BASE_houseCreakLarge2_10C4C929.wem"
+     },
+     {
+      "Id": "1028042123",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_BASE_houseCreakLarge6.wav",
+      "CachePath": "SFX/env_BASE_houseCreakLarge6_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1883987997",
+      "Name": "Base_House_Environment",
+      "ObjectPath": "\\Events\\Default Work Unit\\Env\\Base_House\\Base_House_Environment",
+      "GUID": "{562188F0-445B-4B3B-9ED4-CDD2935A6CFA}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "5785313"
+       },
+       {
+        "Id": "23874524"
+       },
+       {
+        "Id": "25386790"
+       },
+       {
+        "Id": "138464293"
+       },
+       {
+        "Id": "509444671"
+       },
+       {
+        "Id": "1028042123"
+       }
+      ]
+     },
+     {
+      "Id": "3468220976",
+      "Name": "Base_House_Environment_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Env\\Base_House\\Base_House_Environment_Stop",
+      "GUID": "{2CE4549C-CDC1-489D-9546-939E80C578D6}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{EE381DD2-23FA-6479-1FEE-5C50C729E474}"
+ }
+}

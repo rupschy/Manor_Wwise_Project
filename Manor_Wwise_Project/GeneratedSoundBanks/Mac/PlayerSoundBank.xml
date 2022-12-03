@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="577248597" Type="User" GUID="{BB757417-609C-4908-91B5-9EA2BB78BEAE}" Language="SFX" Hash="{7863665D-77E5-7819-A7F3-76D1EA380ADC}">
+			<ObjectPath>\SoundBanks\Default Work Unit\PlayerSoundBank</ObjectPath>
+			<ShortName>PlayerSoundBank</ShortName>
+			<Path>PlayerSoundBank.bnk</Path>
+			<Media>
+				<File Id="5785313" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_BASE_houseCreakLarge5.wav</ShortName>
+					<CachePath>SFX/env_BASE_houseCreakLarge5_10C4C929.wem</CachePath>
+				</File>
+				<File Id="23874524" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_BASE_houseCreakLarge4.wav</ShortName>
+					<CachePath>SFX/env_BASE_houseCreakLarge4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="25386790" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_BASE_houseCreakLarge1.wav</ShortName>
+					<CachePath>SFX/env_BASE_houseCreakLarge1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="138464293" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_BASE_houseCreakLarge3.wav</ShortName>
+					<CachePath>SFX/env_BASE_houseCreakLarge3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="509444671" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_BASE_houseCreakLarge2.wav</ShortName>
+					<CachePath>SFX/env_BASE_houseCreakLarge2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1028042123" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_BASE_houseCreakLarge6.wav</ShortName>
+					<CachePath>SFX/env_BASE_houseCreakLarge6_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1883987997" Name="Base_House_Environment" ObjectPath="\Events\Default Work Unit\Env\Base_House\Base_House_Environment" GUID="{562188F0-445B-4B3B-9ED4-CDD2935A6CFA}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="5785313"/>
+						<MediaRef Id="23874524"/>
+						<MediaRef Id="25386790"/>
+						<MediaRef Id="138464293"/>
+						<MediaRef Id="509444671"/>
+						<MediaRef Id="1028042123"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3468220976" Name="Base_House_Environment_Stop" ObjectPath="\Events\Default Work Unit\Env\Base_House\Base_House_Environment_Stop" GUID="{2CE4549C-CDC1-489D-9546-939E80C578D6}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B7747EB3-D07F-1597-F5C1-4989120277BF}</FileHash>
+</SoundBanksInfo>

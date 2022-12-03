@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="3991942870" Type="User" GUID="{BA873404-534D-4A44-AF66-509645FD9E49}" Language="SFX" Hash="{382C4B50-B28E-BD58-17CE-2C99C11E8DE3}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="82926609" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SN_120_mid_cello_easylife_Amaj.wav</ShortName>
+					<CachePath>SFX/SN_120_mid_cello_easylife_Amaj_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="90065303" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SN_120_low_piano_easylife_Amaj.wav</ShortName>
+					<CachePath>SFX/SN_120_low_piano_easylife_Amaj_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="362758259" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SN_120_cello_ensemble_easylife_Amaj.wav</ShortName>
+					<CachePath>SFX/SN_120_cello_ensemble_easylife_Amaj_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="403662102" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SN_120_piano_ensemble_easylife_Amaj.wav</ShortName>
+					<CachePath>SFX/SN_120_piano_ensemble_easylife_Amaj_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="430991626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SN_120_low_cello_easylife_Amaj.wav</ShortName>
+					<CachePath>SFX/SN_120_low_cello_easylife_Amaj_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="726250117" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SN_120_high_cello_easylife_Amaj.wav</ShortName>
+					<CachePath>SFX/SN_120_high_cello_easylife_Amaj_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="798249629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SN_120_mid_piano_easylife_Amaj.wav</ShortName>
+					<CachePath>SFX/SN_120_mid_piano_easylife_Amaj_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="896803835" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SN_120_high_piano_easylife_Amaj.wav</ShortName>
+					<CachePath>SFX/SN_120_high_piano_easylife_Amaj_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="949363182" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SN_120_full_ensemble_easylife_Amaj.wav</ShortName>
+					<CachePath>SFX/SN_120_full_ensemble_easylife_Amaj_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Music\Music" GUID="{E881496D-1964-4786-9C8D-92488D051198}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="82926609"/>
+						<MediaRef Id="90065303"/>
+						<MediaRef Id="362758259"/>
+						<MediaRef Id="403662102"/>
+						<MediaRef Id="430991626"/>
+						<MediaRef Id="726250117"/>
+						<MediaRef Id="798249629"/>
+						<MediaRef Id="896803835"/>
+						<MediaRef Id="949363182"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{6E482347-F906-B243-16C0-3EBB76B4E402}</FileHash>
+</SoundBanksInfo>

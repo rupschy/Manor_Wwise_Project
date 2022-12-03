@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{98ADD07F-440B-4183-AF4D-DBA85D873A28}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{98ADD07F-440B-4183-AF4D-DBA85D873A28}" SchemaVersion="110">
 	<AudioObjects>
 		<WorkUnit Name="Ambience" ID="{98ADD07F-440B-4183-AF4D-DBA85D873A28}" PersistMode="Standalone">
 			<ChildrenList>
@@ -83,7 +83,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="m_amb_JD_drone_spinning_top" ID="{B2A8FE4F-8D42-44AB-A1D7-3C110161FEEF}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -106,13 +105,11 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{27C168F7-08FE-44BD-81E2-05747B030843}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Night" ID="{ED865731-0695-419E-91E7-68E10D5513AF}" ShortID="888464310">
 											<PropertyList>
@@ -146,7 +143,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{CD28E06C-51F0-404C-9DAA-596831FC77D9}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -169,13 +165,11 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{F1FBD38D-F937-4843-8538-012CEB481492}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Day" ID="{E64F0EEF-F6F6-41E8-9CF4-6831E8BA2C78}" ShortID="505581094">
 											<PropertyList>
@@ -209,7 +203,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="d_Angels behind the wall" ID="{713D20A6-F591-45DC-931A-7E5E8A05BAAF}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -232,16 +225,13 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="d_amb_JD_drone_pulsing_darkness" ID="{11E7123F-C3B6-4ACB-A0AA-4DCCE93C88C8}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
-									<ObjectLists/>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
@@ -346,7 +336,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="m_amb_JD_drone_spinning_top" ID="{90F6A8F9-5CC3-4660-A6DF-DC1A9A32BF8A}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -369,13 +358,11 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{02872463-E888-4116-BAE1-DD4E9C87BEB1}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Night" ID="{A7BD68DF-EA49-448E-AFB0-59D63EEB3071}" ShortID="580126287">
 											<PropertyList>
@@ -409,7 +396,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{843E664F-6834-4B94-8598-DA7F3A41A425}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -432,13 +418,11 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{F8CDE5A6-6924-4252-9D6E-376BC60350E7}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Day" ID="{26E3513D-E0B2-4ECC-A477-90A892CD2BC4}" ShortID="319700427">
 											<PropertyList>
@@ -472,7 +456,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="d_Angels behind the wall" ID="{4266839C-B6E3-4587-9819-F3D7D5372953}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -495,16 +478,13 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="d_amb_JD_drone_pulsing_darkness" ID="{3E0744D7-588A-4155-AE27-04926F51AC4F}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
-									<ObjectLists/>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
@@ -609,7 +589,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="m_amb_JD_drone_spinning_top" ID="{15E2CA1D-2C49-4F66-B864-3B2C1848E292}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -632,13 +611,11 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{A795EC55-66AB-4219-8A30-84AFDD8E7812}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Night" ID="{03086331-187C-44EA-868A-53B4A528D8AB}" ShortID="613829521">
 											<PropertyList>
@@ -672,7 +649,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{3D13F3EE-7F3A-47A0-8B70-03091B87C4A6}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -695,13 +671,11 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{684EA754-9F7F-45A6-AEF7-6E0261BAF52C}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Day" ID="{060E8880-A88B-422E-8CAF-498868FAF70E}" ShortID="70226657">
 											<PropertyList>
@@ -735,7 +709,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="d_Angels behind the wall" ID="{5BF51D13-8D1B-4A9B-8F7F-5DEF50E03757}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -758,16 +731,13 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="d_amb_JD_drone_pulsing_darkness" ID="{07D6B852-5868-4E37-ADAD-EEACC6798417}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
-									<ObjectLists/>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
@@ -872,7 +842,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="m_amb_JD_drone_spinning_top" ID="{C90AD56E-D8B5-4F77-89D0-6A3C226A14A1}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -895,13 +864,11 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{C0D7DD70-6FCD-452C-89FD-519D24B733FA}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Night" ID="{CE52C2DF-E40B-40FE-90CC-F1D50979C49C}" ShortID="310152160">
 											<PropertyList>
@@ -935,7 +902,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{44B23956-F4CA-4B66-94C5-4990F2B8AFFD}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -958,13 +924,11 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{F66F79C6-03CD-48C6-B7E3-3FA0FDAD6261}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Day" ID="{5BC1384E-674B-4622-8BA3-4A91965725F3}" ShortID="347389938">
 											<PropertyList>
@@ -998,7 +962,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="d_Angels behind the wall" ID="{766CBF29-C0F6-4809-9D9C-3C03469E9B48}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -1021,16 +984,13 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="d_amb_JD_drone_pulsing_darkness" ID="{8577263A-17CD-446F-89E1-DAC379903E13}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
-									<ObjectLists/>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
@@ -1135,7 +1095,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="m_amb_JD_drone_spinning_top" ID="{1DC944EC-8B56-437C-A8A5-7D7FD0808E4C}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -1158,13 +1117,11 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{F6F566CC-2558-48F8-B398-43F3E61D2D83}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Night" ID="{DDC23AB5-35EA-4926-822E-D99F6954520A}" ShortID="830662851">
 											<PropertyList>
@@ -1198,7 +1155,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{5A4C85BE-48FA-413B-8D6F-A42064BA542C}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -1221,13 +1177,11 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{E463A738-F397-4DF4-AB63-18FCE478DE10}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Day" ID="{6FAA00D6-D736-4547-B17A-2769D377147B}" ShortID="444662200">
 											<PropertyList>
@@ -1261,7 +1215,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="d_Angels behind the wall" ID="{A459C396-CE6D-4ADF-9897-8BBBAE638210}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -1284,16 +1237,13 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="d_amb_JD_drone_pulsing_darkness" ID="{C1D0B715-B04E-49C8-BB44-CF5F1F0CD1A9}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
-									<ObjectLists/>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
@@ -1348,7 +1298,6 @@
 									</GroupingInfo>
 								</SwitchContainer>
 							</ChildrenList>
-							<ObjectLists/>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
@@ -1421,7 +1370,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="m_amb_JD_drone_spinning_top" ID="{54DBE0AC-1F70-4090-86B3-EFCA357F5097}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -1444,13 +1392,11 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{C19DC059-2CBD-4D71-94FD-06EFEE41A663}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Night" ID="{7F4AC31F-454C-42AD-970F-70A6EDCF41F7}" ShortID="1068711710">
 									<PropertyList>
@@ -1484,7 +1430,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{7D70F8B9-E8C7-442E-9046-60DC104257F7}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -1507,13 +1452,11 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{66120D94-3A19-4749-97A6-AE5BCFB0E137}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Day" ID="{15710C7C-640E-4BF6-9CBC-AB2594DECD43}" ShortID="358182158">
 									<PropertyList>
@@ -1547,7 +1490,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="d_Angels behind the wall" ID="{20DF1048-7E18-4F39-BF39-89C40C7F5546}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -1570,16 +1512,13 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="d_amb_JD_drone_pulsing_darkness" ID="{3995C1DD-ED2E-45AE-8D57-164EF73E5BC7}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
-							<ObjectLists/>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
@@ -1634,7 +1573,6 @@
 							</GroupingInfo>
 						</SwitchContainer>
 					</ChildrenList>
-					<ObjectLists/>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

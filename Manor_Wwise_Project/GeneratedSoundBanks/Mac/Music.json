@@ -1,0 +1,133 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3991942870",
+    "Type": "User",
+    "GUID": "{BA873404-534D-4A44-AF66-509645FD9E49}",
+    "Language": "SFX",
+    "Hash": "{382C4B50-B28E-BD58-17CE-2C99C11E8DE3}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
+    "ShortName": "Music",
+    "Path": "Music.bnk",
+    "Media": [
+     {
+      "Id": "82926609",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SN_120_mid_cello_easylife_Amaj.wav",
+      "CachePath": "SFX/SN_120_mid_cello_easylife_Amaj_D79FB2B7.wem"
+     },
+     {
+      "Id": "90065303",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SN_120_low_piano_easylife_Amaj.wav",
+      "CachePath": "SFX/SN_120_low_piano_easylife_Amaj_D79FB2B7.wem"
+     },
+     {
+      "Id": "362758259",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SN_120_cello_ensemble_easylife_Amaj.wav",
+      "CachePath": "SFX/SN_120_cello_ensemble_easylife_Amaj_D79FB2B7.wem"
+     },
+     {
+      "Id": "403662102",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SN_120_piano_ensemble_easylife_Amaj.wav",
+      "CachePath": "SFX/SN_120_piano_ensemble_easylife_Amaj_D79FB2B7.wem"
+     },
+     {
+      "Id": "430991626",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SN_120_low_cello_easylife_Amaj.wav",
+      "CachePath": "SFX/SN_120_low_cello_easylife_Amaj_D79FB2B7.wem"
+     },
+     {
+      "Id": "726250117",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SN_120_high_cello_easylife_Amaj.wav",
+      "CachePath": "SFX/SN_120_high_cello_easylife_Amaj_D79FB2B7.wem"
+     },
+     {
+      "Id": "798249629",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SN_120_mid_piano_easylife_Amaj.wav",
+      "CachePath": "SFX/SN_120_mid_piano_easylife_Amaj_D79FB2B7.wem"
+     },
+     {
+      "Id": "896803835",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SN_120_high_piano_easylife_Amaj.wav",
+      "CachePath": "SFX/SN_120_high_piano_easylife_Amaj_D79FB2B7.wem"
+     },
+     {
+      "Id": "949363182",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SN_120_full_ensemble_easylife_Amaj.wav",
+      "CachePath": "SFX/SN_120_full_ensemble_easylife_Amaj_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Events\\Music\\Music",
+      "GUID": "{E881496D-1964-4786-9C8D-92488D051198}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "82926609"
+       },
+       {
+        "Id": "90065303"
+       },
+       {
+        "Id": "362758259"
+       },
+       {
+        "Id": "403662102"
+       },
+       {
+        "Id": "430991626"
+       },
+       {
+        "Id": "726250117"
+       },
+       {
+        "Id": "798249629"
+       },
+       {
+        "Id": "896803835"
+       },
+       {
+        "Id": "949363182"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5F438E4C-8FA5-2926-FB5E-4A526F25C6F6}"
+ }
+}

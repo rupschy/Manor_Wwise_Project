@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "851222965",
+    "Type": "User",
+    "GUID": "{5C510A63-32F0-49C3-85C5-FDC2E70B9ACE}",
+    "Language": "SFX",
+    "Hash": "{93E0FBD8-D0AD-C118-123B-A46AD2F639E2}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\NPCSoundBank",
+    "ShortName": "NPCSoundBank",
+    "Path": "NPCSoundBank.bnk"
+   }
+  ],
+  "FileHash": "{0B5679DA-F815-B697-B937-1D666777FE60}"
+ }
+}

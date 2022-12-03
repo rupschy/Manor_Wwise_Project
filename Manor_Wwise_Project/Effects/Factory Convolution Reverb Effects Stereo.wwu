@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{9D68BE5F-8CA6-43E0-BCE2-C7D59F63E582}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{9D68BE5F-8CA6-43E0-BCE2-C7D59F63E582}" SchemaVersion="110">
 	<Effects>
 		<WorkUnit Name="Factory Convolution Reverb Effects Stereo" ID="{9D68BE5F-8CA6-43E0-BCE2-C7D59F63E582}" PersistMode="Standalone">
 			<ChildrenList>

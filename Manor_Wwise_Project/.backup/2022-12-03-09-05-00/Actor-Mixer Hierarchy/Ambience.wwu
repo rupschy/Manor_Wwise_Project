@@ -1,0 +1,1642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{98ADD07F-440B-4183-AF4D-DBA85D873A28}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Ambience" ID="{98ADD07F-440B-4183-AF4D-DBA85D873A28}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Amb_MainMixer" ID="{18E5F363-461D-4F3C-8799-27F10D604E6E}" ShortID="152714410">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AmbienceMaster" ID="{B0457F5D-243A-442E-B723-D0C1F09D388F}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="Amb_MainRoomSwitch" ID="{3611D5EE-C24C-4FA0-B20B-BBEC650AA66B}" ShortID="597995991">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Hallway" ID="{E7BF44E6-B934-44B9-9300-A59EBE69A342}" WorkUnitID="{5AD0FCAF-9E25-4F34-8B41-E8FD272875ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="2DAmbienceBeds" ID="{1896106A-ABE5-4541-BEB7-8716BD6D2C33}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="AmbRoomType" ID="{D6B533D0-CEFD-4953-88C4-3F8240615FB9}" WorkUnitID="{5AD0FCAF-9E25-4F34-8B41-E8FD272875ED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="Amb_TimeOfDay_Small" ID="{186569A3-D731-4A71-A243-67A2F9C53D2B}" ShortID="943420126">
+									<PropertyList>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Day" ID="{9C0E3B89-F12D-49B4-9F07-AF3D8CEBC74F}" WorkUnitID="{5AD0FCAF-9E25-4F34-8B41-E8FD272875ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="AmbTimeOfDay" ID="{ACF49CBF-36A7-47C1-B40D-B536069A923A}" WorkUnitID="{5AD0FCAF-9E25-4F34-8B41-E8FD272875ED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Morning" ID="{3C6370DF-16C9-4A91-AE5F-A107E4D24CE8}" ShortID="822203289">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="m_amb_JD_drone_spinning_top" ID="{A9C136B8-FE0E-4513-9644-783D902778B3}" ShortID="575679085">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="m_amb_JD_drone_spinning_top" ID="{B2A8FE4F-8D42-44AB-A1D7-3C110161FEEF}">
+															<Language>SFX</Language>
+															<AudioFile>m_amb_JD_drone_spinning_top.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="604068171"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="m_amb_JD_drone_spinning_top" ID="{B2A8FE4F-8D42-44AB-A1D7-3C110161FEEF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="m_Sculpture_Springs_Colinized_St_58" ID="{FD3798A4-2AF5-4964-A902-D75957D8FC32}" ShortID="328082398">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{27C168F7-08FE-44BD-81E2-05747B030843}">
+															<Language>SFX</Language>
+															<AudioFile>m_Sculpture_Springs_Colinized_St_58.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="178129489"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{27C168F7-08FE-44BD-81E2-05747B030843}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Night" ID="{ED865731-0695-419E-91E7-68E10D5513AF}" ShortID="888464310">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="n_Sculpture_Edges_Colinized_St_114" ID="{0287EEC2-9217-4423-A071-12AB1429BD59}" ShortID="310193951">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{CD28E06C-51F0-404C-9DAA-596831FC77D9}">
+															<Language>SFX</Language>
+															<AudioFile>n_Sculpture_Edges_Colinized_St_114.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="258996451"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{CD28E06C-51F0-404C-9DAA-596831FC77D9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{DC210220-6B1E-4611-A07D-2A187C4FCE83}" ShortID="566394887">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{F1FBD38D-F937-4843-8538-012CEB481492}">
+															<Language>SFX</Language>
+															<AudioFile>n_Sculpture_Protrusion_Colinized_St_95.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="833537214"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{F1FBD38D-F937-4843-8538-012CEB481492}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Day" ID="{E64F0EEF-F6F6-41E8-9CF4-6831E8BA2C78}" ShortID="505581094">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="d_Angels behind the wall" ID="{54C2C2AA-DB17-4F9C-9899-D2CC47809417}" ShortID="312579523">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="d_Angels behind the wall" ID="{713D20A6-F591-45DC-931A-7E5E8A05BAAF}">
+															<Language>SFX</Language>
+															<AudioFile>d_Angels behind the wall.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1070946526"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="d_Angels behind the wall" ID="{713D20A6-F591-45DC-931A-7E5E8A05BAAF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="d_amb_JD_drone_pulsing_darkness" ID="{8231F13E-8D09-4A79-9B06-295F4A5DDE99}" ShortID="853496016">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="d_amb_JD_drone_pulsing_darkness" ID="{11E7123F-C3B6-4ACB-A0AA-4DCCE93C88C8}">
+															<Language>SFX</Language>
+															<AudioFile>d_amb_JD_drone_pulsing_darkness.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="674213312"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="d_amb_JD_drone_pulsing_darkness" ID="{11E7123F-C3B6-4ACB-A0AA-4DCCE93C88C8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Night" ID="{ED865731-0695-419E-91E7-68E10D5513AF}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Morning" ID="{3C6370DF-16C9-4A91-AE5F-A107E4D24CE8}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Day" ID="{E64F0EEF-F6F6-41E8-9CF4-6831E8BA2C78}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Amb_TimeOfDay_Stairs" ID="{53035261-C193-43CE-8B17-78EE3284FBAC}" ShortID="131301592">
+									<PropertyList>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Day" ID="{9C0E3B89-F12D-49B4-9F07-AF3D8CEBC74F}" WorkUnitID="{5AD0FCAF-9E25-4F34-8B41-E8FD272875ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="AmbTimeOfDay" ID="{ACF49CBF-36A7-47C1-B40D-B536069A923A}" WorkUnitID="{5AD0FCAF-9E25-4F34-8B41-E8FD272875ED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Morning" ID="{0D045E4A-BC30-4844-AE72-BE038A6000F3}" ShortID="317607217">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="m_amb_JD_drone_spinning_top" ID="{2DFB4AEC-295D-458E-8A00-88B9C4DEADBF}" ShortID="696473690">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="m_amb_JD_drone_spinning_top" ID="{90F6A8F9-5CC3-4660-A6DF-DC1A9A32BF8A}">
+															<Language>SFX</Language>
+															<AudioFile>m_amb_JD_drone_spinning_top.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="604068171"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="m_amb_JD_drone_spinning_top" ID="{90F6A8F9-5CC3-4660-A6DF-DC1A9A32BF8A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="m_Sculpture_Springs_Colinized_St_58" ID="{923D3E9D-B363-420A-B96A-4B9BBD7BBD03}" ShortID="670796018">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{02872463-E888-4116-BAE1-DD4E9C87BEB1}">
+															<Language>SFX</Language>
+															<AudioFile>m_Sculpture_Springs_Colinized_St_58.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="178129489"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{02872463-E888-4116-BAE1-DD4E9C87BEB1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Night" ID="{A7BD68DF-EA49-448E-AFB0-59D63EEB3071}" ShortID="580126287">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="n_Sculpture_Edges_Colinized_St_114" ID="{F37904C7-A10B-45D1-AA8A-BDAA332204BE}" ShortID="138570314">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{843E664F-6834-4B94-8598-DA7F3A41A425}">
+															<Language>SFX</Language>
+															<AudioFile>n_Sculpture_Edges_Colinized_St_114.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="258996451"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{843E664F-6834-4B94-8598-DA7F3A41A425}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{13361732-713B-4D2C-8652-B52ECC89BAE1}" ShortID="403111771">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{F8CDE5A6-6924-4252-9D6E-376BC60350E7}">
+															<Language>SFX</Language>
+															<AudioFile>n_Sculpture_Protrusion_Colinized_St_95.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="833537214"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{F8CDE5A6-6924-4252-9D6E-376BC60350E7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Day" ID="{26E3513D-E0B2-4ECC-A477-90A892CD2BC4}" ShortID="319700427">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="d_Angels behind the wall" ID="{D1F214D7-1200-4D9E-80C6-2A19EB94AEB3}" ShortID="534207730">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="d_Angels behind the wall" ID="{4266839C-B6E3-4587-9819-F3D7D5372953}">
+															<Language>SFX</Language>
+															<AudioFile>d_Angels behind the wall.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1070946526"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="d_Angels behind the wall" ID="{4266839C-B6E3-4587-9819-F3D7D5372953}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="d_amb_JD_drone_pulsing_darkness" ID="{C8466D04-8A56-4F4E-8F02-D019ECBA1B62}" ShortID="792690992">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="d_amb_JD_drone_pulsing_darkness" ID="{3E0744D7-588A-4155-AE27-04926F51AC4F}">
+															<Language>SFX</Language>
+															<AudioFile>d_amb_JD_drone_pulsing_darkness.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="674213312"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="d_amb_JD_drone_pulsing_darkness" ID="{3E0744D7-588A-4155-AE27-04926F51AC4F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Day" ID="{26E3513D-E0B2-4ECC-A477-90A892CD2BC4}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Morning" ID="{0D045E4A-BC30-4844-AE72-BE038A6000F3}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Night" ID="{A7BD68DF-EA49-448E-AFB0-59D63EEB3071}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Amb_TimeOfDay_Medium" ID="{D86C3A6E-9CF6-4395-BB2E-6F054287D9A8}" ShortID="163467117">
+									<PropertyList>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Day" ID="{9C0E3B89-F12D-49B4-9F07-AF3D8CEBC74F}" WorkUnitID="{5AD0FCAF-9E25-4F34-8B41-E8FD272875ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="AmbTimeOfDay" ID="{ACF49CBF-36A7-47C1-B40D-B536069A923A}" WorkUnitID="{5AD0FCAF-9E25-4F34-8B41-E8FD272875ED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Morning" ID="{5A84D34B-0A2F-44C5-8F1E-C5DE31985AC1}" ShortID="301794291">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="m_amb_JD_drone_spinning_top" ID="{56A3DE72-EAD9-433C-A29A-F42392E8222A}" ShortID="944109797">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="m_amb_JD_drone_spinning_top" ID="{15E2CA1D-2C49-4F66-B864-3B2C1848E292}">
+															<Language>SFX</Language>
+															<AudioFile>m_amb_JD_drone_spinning_top.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="604068171"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="m_amb_JD_drone_spinning_top" ID="{15E2CA1D-2C49-4F66-B864-3B2C1848E292}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="m_Sculpture_Springs_Colinized_St_58" ID="{28067E41-2FEF-402D-8882-36E3D0483616}" ShortID="673774893">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{A795EC55-66AB-4219-8A30-84AFDD8E7812}">
+															<Language>SFX</Language>
+															<AudioFile>m_Sculpture_Springs_Colinized_St_58.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="178129489"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{A795EC55-66AB-4219-8A30-84AFDD8E7812}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Night" ID="{03086331-187C-44EA-868A-53B4A528D8AB}" ShortID="613829521">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="n_Sculpture_Edges_Colinized_St_114" ID="{90F36461-E4CC-4036-92F5-041F0B735238}" ShortID="420406881">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{3D13F3EE-7F3A-47A0-8B70-03091B87C4A6}">
+															<Language>SFX</Language>
+															<AudioFile>n_Sculpture_Edges_Colinized_St_114.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="258996451"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{3D13F3EE-7F3A-47A0-8B70-03091B87C4A6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{F2E1B27A-12BC-4371-B65F-DB6354CDBC83}" ShortID="1068886119">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{684EA754-9F7F-45A6-AEF7-6E0261BAF52C}">
+															<Language>SFX</Language>
+															<AudioFile>n_Sculpture_Protrusion_Colinized_St_95.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="833537214"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{684EA754-9F7F-45A6-AEF7-6E0261BAF52C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Day" ID="{060E8880-A88B-422E-8CAF-498868FAF70E}" ShortID="70226657">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="d_Angels behind the wall" ID="{BD7531F5-FA97-4FFD-AD22-2F40DE1A2E4D}" ShortID="496431626">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="d_Angels behind the wall" ID="{5BF51D13-8D1B-4A9B-8F7F-5DEF50E03757}">
+															<Language>SFX</Language>
+															<AudioFile>d_Angels behind the wall.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1070946526"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="d_Angels behind the wall" ID="{5BF51D13-8D1B-4A9B-8F7F-5DEF50E03757}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="d_amb_JD_drone_pulsing_darkness" ID="{E3474994-5E59-4051-8ED3-426C0A523782}" ShortID="191902322">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="d_amb_JD_drone_pulsing_darkness" ID="{07D6B852-5868-4E37-ADAD-EEACC6798417}">
+															<Language>SFX</Language>
+															<AudioFile>d_amb_JD_drone_pulsing_darkness.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="674213312"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="d_amb_JD_drone_pulsing_darkness" ID="{07D6B852-5868-4E37-ADAD-EEACC6798417}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Night" ID="{03086331-187C-44EA-868A-53B4A528D8AB}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Morning" ID="{5A84D34B-0A2F-44C5-8F1E-C5DE31985AC1}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Day" ID="{060E8880-A88B-422E-8CAF-498868FAF70E}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Amb_TimeOfDay_Hallway" ID="{F90CFCCE-6F7E-41A0-8338-8E98E053760E}" ShortID="100581160">
+									<PropertyList>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Day" ID="{9C0E3B89-F12D-49B4-9F07-AF3D8CEBC74F}" WorkUnitID="{5AD0FCAF-9E25-4F34-8B41-E8FD272875ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="AmbTimeOfDay" ID="{ACF49CBF-36A7-47C1-B40D-B536069A923A}" WorkUnitID="{5AD0FCAF-9E25-4F34-8B41-E8FD272875ED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Morning" ID="{F563F650-C3E3-45C3-B199-7F66645C4455}" ShortID="813392578">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="m_amb_JD_drone_spinning_top" ID="{B1F2DB17-1D52-4A04-87D3-CC5E631B08CF}" ShortID="263168175">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="m_amb_JD_drone_spinning_top" ID="{C90AD56E-D8B5-4F77-89D0-6A3C226A14A1}">
+															<Language>SFX</Language>
+															<AudioFile>m_amb_JD_drone_spinning_top.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="604068171"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="m_amb_JD_drone_spinning_top" ID="{C90AD56E-D8B5-4F77-89D0-6A3C226A14A1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="m_Sculpture_Springs_Colinized_St_58" ID="{19E1342F-1219-49B3-99F5-6732257DBBDC}" ShortID="779655445">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{C0D7DD70-6FCD-452C-89FD-519D24B733FA}">
+															<Language>SFX</Language>
+															<AudioFile>m_Sculpture_Springs_Colinized_St_58.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="178129489"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{C0D7DD70-6FCD-452C-89FD-519D24B733FA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Night" ID="{CE52C2DF-E40B-40FE-90CC-F1D50979C49C}" ShortID="310152160">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="n_Sculpture_Edges_Colinized_St_114" ID="{E2888CD7-5A6B-4F5D-89F2-D44C90558732}" ShortID="751958034">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{44B23956-F4CA-4B66-94C5-4990F2B8AFFD}">
+															<Language>SFX</Language>
+															<AudioFile>n_Sculpture_Edges_Colinized_St_114.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="258996451"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{44B23956-F4CA-4B66-94C5-4990F2B8AFFD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{D4085457-8414-456F-AF12-FDDF2D6104C3}" ShortID="766449159">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{F66F79C6-03CD-48C6-B7E3-3FA0FDAD6261}">
+															<Language>SFX</Language>
+															<AudioFile>n_Sculpture_Protrusion_Colinized_St_95.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="833537214"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{F66F79C6-03CD-48C6-B7E3-3FA0FDAD6261}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Day" ID="{5BC1384E-674B-4622-8BA3-4A91965725F3}" ShortID="347389938">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="d_Angels behind the wall" ID="{0CA5BDA3-D113-43AC-B015-D9AF7C08452B}" ShortID="52503694">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="d_Angels behind the wall" ID="{766CBF29-C0F6-4809-9D9C-3C03469E9B48}">
+															<Language>SFX</Language>
+															<AudioFile>d_Angels behind the wall.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1070946526"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="d_Angels behind the wall" ID="{766CBF29-C0F6-4809-9D9C-3C03469E9B48}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="d_amb_JD_drone_pulsing_darkness" ID="{6FF7F7A2-21C9-4E1D-8681-B90F22848862}" ShortID="102335010">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="d_amb_JD_drone_pulsing_darkness" ID="{8577263A-17CD-446F-89E1-DAC379903E13}">
+															<Language>SFX</Language>
+															<AudioFile>d_amb_JD_drone_pulsing_darkness.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="674213312"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="d_amb_JD_drone_pulsing_darkness" ID="{8577263A-17CD-446F-89E1-DAC379903E13}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Day" ID="{5BC1384E-674B-4622-8BA3-4A91965725F3}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Morning" ID="{F563F650-C3E3-45C3-B199-7F66645C4455}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Night" ID="{CE52C2DF-E40B-40FE-90CC-F1D50979C49C}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Amb_TimeOfDay_Large" ID="{68D4538E-52A3-4A68-AA29-5E0A5DC68531}" ShortID="64755927">
+									<PropertyList>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Day" ID="{9C0E3B89-F12D-49B4-9F07-AF3D8CEBC74F}" WorkUnitID="{5AD0FCAF-9E25-4F34-8B41-E8FD272875ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="AmbTimeOfDay" ID="{ACF49CBF-36A7-47C1-B40D-B536069A923A}" WorkUnitID="{5AD0FCAF-9E25-4F34-8B41-E8FD272875ED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Morning" ID="{9443A262-A6EE-4C61-A1B8-DF599C47F0E7}" ShortID="401902953">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="m_amb_JD_drone_spinning_top" ID="{0BCB607B-6D23-430F-AB0C-AFB297053DCF}" ShortID="1050166934">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="m_amb_JD_drone_spinning_top" ID="{1DC944EC-8B56-437C-A8A5-7D7FD0808E4C}">
+															<Language>SFX</Language>
+															<AudioFile>m_amb_JD_drone_spinning_top.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="604068171"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="m_amb_JD_drone_spinning_top" ID="{1DC944EC-8B56-437C-A8A5-7D7FD0808E4C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="m_Sculpture_Springs_Colinized_St_58" ID="{E87D4AC7-AD67-4767-8EAE-BE0EB5A9610D}" ShortID="145743852">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{F6F566CC-2558-48F8-B398-43F3E61D2D83}">
+															<Language>SFX</Language>
+															<AudioFile>m_Sculpture_Springs_Colinized_St_58.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="178129489"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{F6F566CC-2558-48F8-B398-43F3E61D2D83}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Night" ID="{DDC23AB5-35EA-4926-822E-D99F6954520A}" ShortID="830662851">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="n_Sculpture_Edges_Colinized_St_114" ID="{188BCD3B-6120-4E7A-A2CA-953D4D70F8CE}" ShortID="839611827">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{5A4C85BE-48FA-413B-8D6F-A42064BA542C}">
+															<Language>SFX</Language>
+															<AudioFile>n_Sculpture_Edges_Colinized_St_114.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="258996451"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{5A4C85BE-48FA-413B-8D6F-A42064BA542C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{77C0C0B2-42DA-402F-BC4A-2C8F517AC9AD}" ShortID="859474702">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{E463A738-F397-4DF4-AB63-18FCE478DE10}">
+															<Language>SFX</Language>
+															<AudioFile>n_Sculpture_Protrusion_Colinized_St_95.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="833537214"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{E463A738-F397-4DF4-AB63-18FCE478DE10}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Day" ID="{6FAA00D6-D736-4547-B17A-2769D377147B}" ShortID="444662200">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="d_Angels behind the wall" ID="{CA1BFA49-EFB4-466D-A15D-627214C88519}" ShortID="207411617">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="d_Angels behind the wall" ID="{A459C396-CE6D-4ADF-9897-8BBBAE638210}">
+															<Language>SFX</Language>
+															<AudioFile>d_Angels behind the wall.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1070946526"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="d_Angels behind the wall" ID="{A459C396-CE6D-4ADF-9897-8BBBAE638210}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="d_amb_JD_drone_pulsing_darkness" ID="{6948EFDC-6A71-4E51-A148-B94B854E8F3C}" ShortID="133476669">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="d_amb_JD_drone_pulsing_darkness" ID="{C1D0B715-B04E-49C8-BB44-CF5F1F0CD1A9}">
+															<Language>SFX</Language>
+															<AudioFile>d_amb_JD_drone_pulsing_darkness.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="674213312"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="d_amb_JD_drone_pulsing_darkness" ID="{C1D0B715-B04E-49C8-BB44-CF5F1F0CD1A9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Morning" ID="{9443A262-A6EE-4C61-A1B8-DF599C47F0E7}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Night" ID="{DDC23AB5-35EA-4926-822E-D99F6954520A}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Day" ID="{6FAA00D6-D736-4547-B17A-2769D377147B}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>10</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+							<ObjectLists/>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Amb_TimeOfDay_Stairs" ID="{53035261-C193-43CE-8B17-78EE3284FBAC}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Amb_TimeOfDay_Medium" ID="{D86C3A6E-9CF6-4395-BB2E-6F054287D9A8}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Amb_TimeOfDay_Large" ID="{68D4538E-52A3-4A68-AA29-5E0A5DC68531}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Amb_TimeOfDay_Small" ID="{186569A3-D731-4A71-A243-67A2F9C53D2B}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Amb_TimeOfDay_Hallway" ID="{F90CFCCE-6F7E-41A0-8338-8E98E053760E}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Amb_TimeOfDay_Test" ID="{1F4F40C5-996A-4CDC-9335-51737FA2395C}" ShortID="549225875">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Day" ID="{9C0E3B89-F12D-49B4-9F07-AF3D8CEBC74F}" WorkUnitID="{5AD0FCAF-9E25-4F34-8B41-E8FD272875ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="2DAmbienceBeds" ID="{1896106A-ABE5-4541-BEB7-8716BD6D2C33}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="AmbTimeOfDay" ID="{ACF49CBF-36A7-47C1-B40D-B536069A923A}" WorkUnitID="{5AD0FCAF-9E25-4F34-8B41-E8FD272875ED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Morning" ID="{D7BFE390-93CC-4462-A742-7C4FFEFF08EE}" ShortID="822139243">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="m_amb_JD_drone_spinning_top" ID="{A7D9C735-4F63-4FFA-9D11-BB80D94BFA81}" ShortID="659214663">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="m_amb_JD_drone_spinning_top" ID="{54DBE0AC-1F70-4090-86B3-EFCA357F5097}">
+													<Language>SFX</Language>
+													<AudioFile>m_amb_JD_drone_spinning_top.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="604068171"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="m_amb_JD_drone_spinning_top" ID="{54DBE0AC-1F70-4090-86B3-EFCA357F5097}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="m_Sculpture_Springs_Colinized_St_58" ID="{1961185C-F6E6-4E47-AACF-E26A27A29C6F}" ShortID="867086780">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{C19DC059-2CBD-4D71-94FD-06EFEE41A663}">
+													<Language>SFX</Language>
+													<AudioFile>m_Sculpture_Springs_Colinized_St_58.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="178129489"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="m_Sculpture_Springs_Colinized_St_58" ID="{C19DC059-2CBD-4D71-94FD-06EFEE41A663}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Night" ID="{7F4AC31F-454C-42AD-970F-70A6EDCF41F7}" ShortID="1068711710">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="n_Sculpture_Edges_Colinized_St_114" ID="{6BC8EEE5-EF6A-426F-BA9D-1DAA91A1804B}" ShortID="666742289">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{7D70F8B9-E8C7-442E-9046-60DC104257F7}">
+													<Language>SFX</Language>
+													<AudioFile>n_Sculpture_Edges_Colinized_St_114.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="258996451"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="n_Sculpture_Edges_Colinized_St_114" ID="{7D70F8B9-E8C7-442E-9046-60DC104257F7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{687B336F-29D5-419F-8A90-6D0967DA0979}" ShortID="682963697">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{66120D94-3A19-4749-97A6-AE5BCFB0E137}">
+													<Language>SFX</Language>
+													<AudioFile>n_Sculpture_Protrusion_Colinized_St_95.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="833537214"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="n_Sculpture_Protrusion_Colinized_St_95" ID="{66120D94-3A19-4749-97A6-AE5BCFB0E137}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Day" ID="{15710C7C-640E-4BF6-9CBC-AB2594DECD43}" ShortID="358182158">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="d_Angels behind the wall" ID="{C7F3D3F8-3FFC-4DEF-AE39-CE57988067E7}" ShortID="518835707">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="d_Angels behind the wall" ID="{20DF1048-7E18-4F39-BF39-89C40C7F5546}">
+													<Language>SFX</Language>
+													<AudioFile>d_Angels behind the wall.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1070946526"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="d_Angels behind the wall" ID="{20DF1048-7E18-4F39-BF39-89C40C7F5546}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="d_amb_JD_drone_pulsing_darkness" ID="{821F6A88-FAE5-45AF-868E-F453F2B93673}" ShortID="20869381">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="d_amb_JD_drone_pulsing_darkness" ID="{3995C1DD-ED2E-45AE-8D57-164EF73E5BC7}">
+													<Language>SFX</Language>
+													<AudioFile>d_amb_JD_drone_pulsing_darkness.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="674213312"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="d_amb_JD_drone_pulsing_darkness" ID="{3995C1DD-ED2E-45AE-8D57-164EF73E5BC7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Night" ID="{7F4AC31F-454C-42AD-970F-70A6EDCF41F7}"/>
+										<PropertyList>
+											<Property Name="ContinuePlay" Type="bool" Value="True"/>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>10</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>10</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Day" ID="{15710C7C-640E-4BF6-9CBC-AB2594DECD43}"/>
+										<PropertyList>
+											<Property Name="ContinuePlay" Type="bool" Value="True"/>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>10</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>10</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Morning" ID="{D7BFE390-93CC-4462-A742-7C4FFEFF08EE}"/>
+										<PropertyList>
+											<Property Name="ContinuePlay" Type="bool" Value="True"/>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>10</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>10</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="851222965" Type="User" GUID="{5C510A63-32F0-49C3-85C5-FDC2E70B9ACE}" Language="SFX" Hash="{93E0FBD8-D0AD-C118-123B-A46AD2F639E2}">
+			<ObjectPath>\SoundBanks\Default Work Unit\NPCSoundBank</ObjectPath>
+			<ShortName>NPCSoundBank</ShortName>
+			<Path>NPCSoundBank.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F33E2DF0-BDD8-F100-093B-72ABBAF63CCB}</FileHash>
+</SoundBanksInfo>

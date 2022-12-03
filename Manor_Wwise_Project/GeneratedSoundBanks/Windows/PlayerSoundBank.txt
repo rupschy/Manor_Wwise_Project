@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1883987997	Base_House_Environment			\Default Work Unit\Env\Base_House\Base_House_Environment	
+	3468220976	Base_House_Environment_Stop			\Default Work Unit\Env\Base_House\Base_House_Environment_Stop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	5785313	env_BASE_houseCreakLarge5	G:\Documents\GitHub\Manor_Wwise_Project\Manor_Wwise_Project\.cache\Windows\SFX\env_BASE_houseCreakLarge5_10C4C929.wem		\Actor-Mixer Hierarchy\ENVIRONMENT\HOUSE_MASTER\Base_House_Environment\Base_House_Creak_Large\env_BASE_houseCreakLarge5		700760
+	23874524	env_BASE_houseCreakLarge4	G:\Documents\GitHub\Manor_Wwise_Project\Manor_Wwise_Project\.cache\Windows\SFX\env_BASE_houseCreakLarge4_10C4C929.wem		\Actor-Mixer Hierarchy\ENVIRONMENT\HOUSE_MASTER\Base_House_Environment\Base_House_Creak_Large\env_BASE_houseCreakLarge4		1125296
+	25386790	env_BASE_houseCreakLarge1	G:\Documents\GitHub\Manor_Wwise_Project\Manor_Wwise_Project\.cache\Windows\SFX\env_BASE_houseCreakLarge1_10C4C929.wem		\Actor-Mixer Hierarchy\ENVIRONMENT\HOUSE_MASTER\Base_House_Environment\Base_House_Creak_Large\env_BASE_houseCreakLarge1		1248080
+	138464293	env_BASE_houseCreakLarge3	G:\Documents\GitHub\Manor_Wwise_Project\Manor_Wwise_Project\.cache\Windows\SFX\env_BASE_houseCreakLarge3_10C4C929.wem		\Actor-Mixer Hierarchy\ENVIRONMENT\HOUSE_MASTER\Base_House_Environment\Base_House_Creak_Large\env_BASE_houseCreakLarge3		1114644
+	509444671	env_BASE_houseCreakLarge2	G:\Documents\GitHub\Manor_Wwise_Project\Manor_Wwise_Project\.cache\Windows\SFX\env_BASE_houseCreakLarge2_10C4C929.wem		\Actor-Mixer Hierarchy\ENVIRONMENT\HOUSE_MASTER\Base_House_Environment\Base_House_Creak_Large\env_BASE_houseCreakLarge2		961504
+	1028042123	env_BASE_houseCreakLarge6	G:\Documents\GitHub\Manor_Wwise_Project\Manor_Wwise_Project\.cache\Windows\SFX\env_BASE_houseCreakLarge6_10C4C929.wem		\Actor-Mixer Hierarchy\ENVIRONMENT\HOUSE_MASTER\Base_House_Environment\Base_House_Creak_Large\env_BASE_houseCreakLarge6		1008128
+
