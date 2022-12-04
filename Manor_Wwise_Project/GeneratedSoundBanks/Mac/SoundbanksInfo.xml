@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="577248597" Type="User" GUID="{BB757417-609C-4908-91B5-9EA2BB78BEAE}" Language="SFX" Hash="{7863665D-77E5-7819-A7F3-76D1EA380ADC}">
+		<SoundBank Id="577248597" Type="User" GUID="{BB757417-609C-4908-91B5-9EA2BB78BEAE}" Language="SFX" Hash="{78903BE7-9F8D-47CD-B961-9272CDEF7129}">
 			<ObjectPath>\SoundBanks\Default Work Unit\PlayerSoundBank</ObjectPath>
 			<ShortName>PlayerSoundBank</ShortName>
 			<Path>PlayerSoundBank.bnk</Path>
@@ -30,9 +30,45 @@
 					<ShortName>env_BASE_houseCreakLarge3.wav</ShortName>
 					<CachePath>SFX/env_BASE_houseCreakLarge3_10C4C929.wem</CachePath>
 				</File>
+				<File Id="144196421" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_Base_houseWindGust_07.wav</ShortName>
+					<CachePath>SFX/env_Base_houseWindGust_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="361840338" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_Base_houseWindGust_02.wav</ShortName>
+					<CachePath>SFX/env_Base_houseWindGust_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="374666498" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_Base_houseWindGust_01.wav</ShortName>
+					<CachePath>SFX/env_Base_houseWindGust_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="482659483" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_Base_houseWindGust_03.wav</ShortName>
+					<CachePath>SFX/env_Base_houseWindGust_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="509444671" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_BASE_houseCreakLarge2.wav</ShortName>
 					<CachePath>SFX/env_BASE_houseCreakLarge2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="585797064" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_House_Base_Loop.wav</ShortName>
+					<CachePath>SFX/env_House_Base_Loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="682025772" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_Base_houseWindGust_06.wav</ShortName>
+					<CachePath>SFX/env_Base_houseWindGust_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="756475791" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_Base_houseWindGust_08.wav</ShortName>
+					<CachePath>SFX/env_Base_houseWindGust_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="761908921" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_Base_houseWindGust_04.wav</ShortName>
+					<CachePath>SFX/env_Base_houseWindGust_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1007089441" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_Base_houseWindGust_05.wav</ShortName>
+					<CachePath>SFX/env_Base_houseWindGust_05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1028042123" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_BASE_houseCreakLarge6.wav</ShortName>
@@ -40,17 +76,26 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1883987997" Name="Base_House_Environment" ObjectPath="\Events\Default Work Unit\Env\Base_House\Base_House_Environment" GUID="{562188F0-445B-4B3B-9ED4-CDD2935A6CFA}" DurationType="Infinite">
+				<Event Id="2425105230" Name="Base_House_Environment_Play" ObjectPath="\Events\Default Work Unit\Env\Base_House\Base_House_Environment_Play" GUID="{D5448A94-F887-4C0C-B13A-8FDB2CA581D7}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="5785313"/>
 						<MediaRef Id="23874524"/>
 						<MediaRef Id="25386790"/>
 						<MediaRef Id="138464293"/>
+						<MediaRef Id="144196421"/>
+						<MediaRef Id="361840338"/>
+						<MediaRef Id="374666498"/>
+						<MediaRef Id="482659483"/>
 						<MediaRef Id="509444671"/>
+						<MediaRef Id="585797064"/>
+						<MediaRef Id="682025772"/>
+						<MediaRef Id="756475791"/>
+						<MediaRef Id="761908921"/>
+						<MediaRef Id="1007089441"/>
 						<MediaRef Id="1028042123"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3468220976" Name="Base_House_Environment_Stop" ObjectPath="\Events\Default Work Unit\Env\Base_House\Base_House_Environment_Stop" GUID="{2CE4549C-CDC1-489D-9546-939E80C578D6}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3468220976" Name="Base_House_Environment_Stop" ObjectPath="\Events\Default Work Unit\Env\Base_House\Base_House_Environment_Stop" GUID="{078B6FB0-5FB1-448B-8355-D531CEA7DC77}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="851222965" Type="User" GUID="{5C510A63-32F0-49C3-85C5-FDC2E70B9ACE}" Language="SFX" Hash="{93E0FBD8-D0AD-C118-123B-A46AD2F639E2}">
@@ -375,5 +420,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DC6C1937-E9A9-5366-14BD-80803B5A7D7C}</FileHash>
+	<FileHash>{B1D41112-58EA-BC1C-1BE8-FD58EB8B04BE}</FileHash>
 </SoundBanksInfo>

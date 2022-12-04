@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{BB757417-609C-4908-91B5-9EA2BB78BEAE}",
     "Language": "SFX",
-    "Hash": "{7863665D-77E5-7819-A7F3-76D1EA380ADC}",
+    "Hash": "{78903BE7-9F8D-47CD-B961-9272CDEF7129}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSoundBank",
     "ShortName": "PlayerSoundBank",
     "Path": "PlayerSoundBank.bnk",
@@ -48,12 +48,84 @@
       "CachePath": "SFX/env_BASE_houseCreakLarge3_10C4C929.wem"
      },
      {
+      "Id": "144196421",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_Base_houseWindGust_07.wav",
+      "CachePath": "SFX/env_Base_houseWindGust_07_10C4C929.wem"
+     },
+     {
+      "Id": "361840338",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_Base_houseWindGust_02.wav",
+      "CachePath": "SFX/env_Base_houseWindGust_02_10C4C929.wem"
+     },
+     {
+      "Id": "374666498",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_Base_houseWindGust_01.wav",
+      "CachePath": "SFX/env_Base_houseWindGust_01_10C4C929.wem"
+     },
+     {
+      "Id": "482659483",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_Base_houseWindGust_03.wav",
+      "CachePath": "SFX/env_Base_houseWindGust_03_10C4C929.wem"
+     },
+     {
       "Id": "509444671",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "env_BASE_houseCreakLarge2.wav",
       "CachePath": "SFX/env_BASE_houseCreakLarge2_10C4C929.wem"
+     },
+     {
+      "Id": "585797064",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_House_Base_Loop.wav",
+      "CachePath": "SFX/env_House_Base_Loop_D79FB2B7.wem"
+     },
+     {
+      "Id": "682025772",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_Base_houseWindGust_06.wav",
+      "CachePath": "SFX/env_Base_houseWindGust_06_10C4C929.wem"
+     },
+     {
+      "Id": "756475791",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_Base_houseWindGust_08.wav",
+      "CachePath": "SFX/env_Base_houseWindGust_08_10C4C929.wem"
+     },
+     {
+      "Id": "761908921",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_Base_houseWindGust_04.wav",
+      "CachePath": "SFX/env_Base_houseWindGust_04_10C4C929.wem"
+     },
+     {
+      "Id": "1007089441",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_Base_houseWindGust_05.wav",
+      "CachePath": "SFX/env_Base_houseWindGust_05_10C4C929.wem"
      },
      {
       "Id": "1028042123",
@@ -66,10 +138,10 @@
     ],
     "Events": [
      {
-      "Id": "1883987997",
-      "Name": "Base_House_Environment",
-      "ObjectPath": "\\Events\\Default Work Unit\\Env\\Base_House\\Base_House_Environment",
-      "GUID": "{562188F0-445B-4B3B-9ED4-CDD2935A6CFA}",
+      "Id": "2425105230",
+      "Name": "Base_House_Environment_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Env\\Base_House\\Base_House_Environment_Play",
+      "GUID": "{D5448A94-F887-4C0C-B13A-8FDB2CA581D7}",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -85,7 +157,34 @@
         "Id": "138464293"
        },
        {
+        "Id": "144196421"
+       },
+       {
+        "Id": "361840338"
+       },
+       {
+        "Id": "374666498"
+       },
+       {
+        "Id": "482659483"
+       },
+       {
         "Id": "509444671"
+       },
+       {
+        "Id": "585797064"
+       },
+       {
+        "Id": "682025772"
+       },
+       {
+        "Id": "756475791"
+       },
+       {
+        "Id": "761908921"
+       },
+       {
+        "Id": "1007089441"
        },
        {
         "Id": "1028042123"
@@ -96,7 +195,7 @@
       "Id": "3468220976",
       "Name": "Base_House_Environment_Stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Env\\Base_House\\Base_House_Environment_Stop",
-      "GUID": "{2CE4549C-CDC1-489D-9546-939E80C578D6}",
+      "GUID": "{078B6FB0-5FB1-448B-8355-D531CEA7DC77}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -105,6 +204,6 @@
     ]
    }
   ],
-  "FileHash": "{CA48CF5D-2502-3A44-0539-67B530C96A1C}"
+  "FileHash": "{B5A1EB9F-FDF5-F0B7-7916-ECD0C9E40795}"
  }
 }

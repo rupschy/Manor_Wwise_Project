@@ -12,8 +12,8 @@
 				</SoundBank>
 				<SoundBank Name="PlayerSoundBank" ID="{BB757417-609C-4908-91B5-9EA2BB78BEAE}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Base_House_Environment_Stop" ID="{2CE4549C-CDC1-489D-9546-939E80C578D6}" WorkUnitID="{D8DF74BC-CDC0-4D68-A486-936D9D7EBC86}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Base_House_Environment" ID="{562188F0-445B-4B3B-9ED4-CDD2935A6CFA}" WorkUnitID="{D8DF74BC-CDC0-4D68-A486-936D9D7EBC86}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Base_House_Environment_Stop" ID="{078B6FB0-5FB1-448B-8355-D531CEA7DC77}" WorkUnitID="{D8DF74BC-CDC0-4D68-A486-936D9D7EBC86}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Base_House_Environment_Play" ID="{D5448A94-F887-4C0C-B13A-8FDB2CA581D7}" WorkUnitID="{D8DF74BC-CDC0-4D68-A486-936D9D7EBC86}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
