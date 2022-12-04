@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{43A93437-2C3B-4EFC-8E71-EBFAD11BAD5A}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="ENVIRONMENT" ID="{43A93437-2C3B-4EFC-8E71-EBFAD11BAD5A}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="HOUSE_MASTER" ID="{48462135-E988-4D3C-ABA8-5F70C00C9D1D}" ShortID="480734516">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Environmental" ID="{85BE6C47-F48F-48D0-A78E-E39A3FBBF7B1}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Base_House_Environment" ID="{D80BA4D1-E08F-433A-ACE6-BC686E0E82B8}" ShortID="569388368">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{08F4AF31-FE4F-4314-827B-61B8501CD907}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Base_House_Creak_Large" ID="{9CD83CD3-5684-4F93-8BDF-8BCA3A8A8A1A}" ShortID="904640063">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F38715D4-E080-4549-9E85-88DCDFBE5CF1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6BC262E3-6AB7-4222-8BB7-532E393898F8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="8"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>35</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C02CB789-3D32-49AF-87E2-66BE01750812}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8990FA66-9360-4AFB-BE6D-6A3DB0EC6A09}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="75"/>
+															<Property Name="Min" Type="Real64" Value="-75"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="8">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{21A52215-CAAF-44C8-A916-99FF2974DDA8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="8"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B7AF0D54-4757-4C1C-B9FD-0D6F22F429F3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-6"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="env_BASE_houseCreakLarge4" ID="{C04FA9FE-E2CC-4503-ABA4-21BAE7F82C47}" ShortID="351444507">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="env_BASE_houseCreakLarge4" ID="{1405E3E2-60F3-480B-B0AF-BE8D984B595A}">
+													<Language>SFX</Language>
+													<AudioFile>env_BASE_houseCreakLarge4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="23874524"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="env_BASE_houseCreakLarge4" ID="{1405E3E2-60F3-480B-B0AF-BE8D984B595A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="env_BASE_houseCreakLarge5" ID="{B428C798-6AD3-46BF-A562-B70E01A820E4}" ShortID="769307816">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="env_BASE_houseCreakLarge5" ID="{C98A6AA5-6EB9-409F-9D49-C08BD3FB3104}">
+													<Language>SFX</Language>
+													<AudioFile>env_BASE_houseCreakLarge5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="5785313"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="env_BASE_houseCreakLarge5" ID="{C98A6AA5-6EB9-409F-9D49-C08BD3FB3104}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="env_BASE_houseCreakLarge6" ID="{3004329A-661A-45F2-8746-A6098DAF84B9}" ShortID="972927203">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="env_BASE_houseCreakLarge6" ID="{A1FA5281-4833-46B3-9F55-345F25756844}">
+													<Language>SFX</Language>
+													<AudioFile>env_BASE_houseCreakLarge6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1028042123"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="env_BASE_houseCreakLarge6" ID="{A1FA5281-4833-46B3-9F55-345F25756844}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="env_BASE_houseCreakLarge1" ID="{AA411E58-71A0-4864-9E47-AD06B2A633C6}" ShortID="1057918268">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3E99462C-DC83-4D00-9FEF-55CD1D4A51CD}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="env_BASE_houseCreakLarge1" ID="{D07BD765-31F4-4DB6-98E7-62E1C2C04205}">
+													<Language>SFX</Language>
+													<AudioFile>env_BASE_houseCreakLarge1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="25386790"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="env_BASE_houseCreakLarge1" ID="{D07BD765-31F4-4DB6-98E7-62E1C2C04205}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="env_BASE_houseCreakLarge2" ID="{1B74F262-DC1D-4C0A-8320-9D650EABE72E}" ShortID="210097267">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="env_BASE_houseCreakLarge2" ID="{856224CB-B3F2-4826-9E83-F8900DE8C8DF}">
+													<Language>SFX</Language>
+													<AudioFile>env_BASE_houseCreakLarge2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="509444671"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="env_BASE_houseCreakLarge2" ID="{856224CB-B3F2-4826-9E83-F8900DE8C8DF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="env_BASE_houseCreakLarge3" ID="{4348B464-55E6-4A66-9B4C-BFF2D03589C6}" ShortID="1058247106">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75A6FB9E-D5D4-472A-9AAA-07E2A17409DB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DC8A9647-EC21-42A2-AC46-F2242E3B3DED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="env_BASE_houseCreakLarge3" ID="{89E1CBB5-54A9-4A09-877E-58173A474BC2}">
+													<Language>SFX</Language>
+													<AudioFile>env_BASE_houseCreakLarge3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="138464293"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="env_BASE_houseCreakLarge3" ID="{89E1CBB5-54A9-4A09-877E-58173A474BC2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{FB39E30B-5EDA-4ABA-9D49-43ED542C5560}"/>
+						<Position Name="" ID="{0163CEF9-C902-4E66-A86F-265127C1C27E}">
+							<PropertyList>
+								<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+							</PropertyList>
+							<ChildrenList>
+								<Path2D Name="HOUSE_BASE_xx_Path" ID="{74BA3C7B-E26F-4621-A4BD-7E3F116DF341}">
+									<PropertyList>
+										<Property Name="RandomX" Type="Real64" Value="75"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

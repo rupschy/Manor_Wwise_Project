@@ -1,153 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ValidationCache Version="1" SchemaVersion="103">
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Virtual Acoustics\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Triggers\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Switches\Default Work Unit.wwu" DateLow="1649355008" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\States\Default Work Unit.wwu" DateLow="1649355008" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\SoundBanks\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Queries\Factory Queries.wwu" DateLow="1648499652" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Queries\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Presets\Factory Spatial Audio.wwu" DateLow="1648499652" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Presets\Factory Reflect.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Presets\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Modulators\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Mixing Sessions\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Metadata\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1649362458" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Virtual Acoustics\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Triggers\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Switches\Default Work Unit.wwu" DateLow="1649893616" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Switches\AmbienceSwitches.wwu" DateLow="1649787924" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\States\Default Work Unit.wwu" DateLow="1650479043" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\SoundBanks\Default Work Unit.wwu" DateLow="1668201646" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Queries\Factory Queries.wwu" DateLow="1648499652" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Queries\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Presets\Factory Spatial Audio.wwu" DateLow="1648499652" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Presets\Factory Reflect.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Presets\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Modulators\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Mixing Sessions\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Metadata\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1649789677" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Interactive Music Hierarchy\Music.wwu" DateLow="1649714228" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Horror_Game_Template_1.wproj" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Horror_Game_Template_1.crossover.wsettings" DateLow="1668980146" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Game Parameters\Factory Motion.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Game Parameters\Default Work Unit.wwu" DateLow="1649791195" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Events\Music.wwu" DateLow="1649714116" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Events\Default Work Unit.wwu" DateLow="1650479043" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Effects\Factory Reflect.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Effects\Factory McDSP Effects.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Effects\Factory Mastering Suite.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Effects\Factory iZotope Filters.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Effects\Factory iZotope Dynamics.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Effects\Factory iZotope Delay.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Effects\Factory iZotope Box Modeler.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Effects\Factory Effects.wwu" DateLow="1648499652" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Effects\Factory Convolution Reverb Effects Stereo.wwu" DateLow="1649299384" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Effects\Factory Convolution Reverb Effects Ambisonics.wwu" DateLow="1649299384" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Effects\Factory Auro Headphone.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Effects\Default Work Unit.wwu" DateLow="1650479043" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1648499652" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Conversion Settings\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Control Surface Sessions\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Audio Devices\Default Work Unit.wwu" DateLow="1649192306" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Attenuations\Object Attenuation Unit.wwu" DateLow="1649893616" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Attenuations\Default Work Unit.wwu" DateLow="1649355008" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1649192306" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1668201646" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1\Actor-Mixer Hierarchy\Ambience.wwu" DateLow="1649789677" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1.wproj" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Horror_Game_Template_1.crossover.wsettings" DateLow="1649450793" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Game Parameters\Factory Motion.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Game Parameters\Default Work Unit.wwu" DateLow="1649355008" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Events\Default Work Unit.wwu" DateLow="1649362458" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Effects\Factory Reflect.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Effects\Factory McDSP Effects.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Effects\Factory Mastering Suite.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Effects\Factory iZotope Filters.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Effects\Factory iZotope Dynamics.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Effects\Factory iZotope Delay.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Effects\Factory iZotope Box Modeler.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Effects\Factory Effects.wwu" DateLow="1648499652" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Effects\Factory Convolution Reverb Effects Stereo.wwu" DateLow="1649299384" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Effects\Factory Convolution Reverb Effects Ambisonics.wwu" DateLow="1649299384" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Effects\Factory Auro Headphone.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Effects\Default Work Unit.wwu" DateLow="1649355008" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1648499652" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Conversion Settings\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Control Surface Sessions\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Audio Devices\Default Work Unit.wwu" DateLow="1649192306" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Attenuations\Object Attenuation Unit.wwu" DateLow="1649362458" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Attenuations\Default Work Unit.wwu" DateLow="1649355008" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1649192306" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\WwiseHorrorUE5\Horror_Game_Template_1\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1649362458" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Virtual Acoustics\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Triggers\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Switches\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\States\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\SoundBanks\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Queries\Factory Queries.wwu" DateLow="1648499652" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Queries\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Presets\Factory Spatial Audio.wwu" DateLow="1648499652" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Presets\Factory Reflect.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Presets\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Modulators\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Mixing Sessions\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Metadata\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1649192306" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Horror_Game_Template_1.wproj" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Horror_Game_Template_1.crossover.wsettings" DateLow="1649192307" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Game Parameters\Factory Motion.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Game Parameters\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Events\Default Work Unit.wwu" DateLow="1649192306" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Effects\Factory Reflect.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Effects\Factory McDSP Effects.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Effects\Factory Mastering Suite.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Effects\Factory iZotope Filters.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Effects\Factory iZotope Dynamics.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Effects\Factory iZotope Delay.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Effects\Factory iZotope Box Modeler.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Effects\Factory Effects.wwu" DateLow="1648499652" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Effects\Factory Convolution Reverb Effects Stereo.wwu" DateLow="1648490712" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Effects\Factory Convolution Reverb Effects Ambisonics.wwu" DateLow="1648490712" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Effects\Factory Auro Headphone.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Effects\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1648499652" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Conversion Settings\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Control Surface Sessions\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Audio Devices\Default Work Unit.wwu" DateLow="1649192306" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Attenuations\Default Work Unit.wwu" DateLow="1649177615" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1648499653" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1649192306" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Horror_Game_Template_1\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1649192306" DateHigh="0"/>
+<ValidationCache Version="1" SchemaVersion="110">
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1670093674" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Virtual Acoustics\Default Work Unit.wwu" DateLow="1670093674" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Triggers\Default Work Unit.wwu" DateLow="1670093674" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Switches\Default Work Unit.wwu" DateLow="1670093674" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Switches\AmbienceSwitches.wwu" DateLow="1670093674" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\States\Default Work Unit.wwu" DateLow="1670093674" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1670093674" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\SoundBanks\Default Work Unit.wwu" DateLow="1670093674" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Queries\Factory Queries.wwu" DateLow="1670093674" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Queries\Default Work Unit.wwu" DateLow="1670093674" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Presets\Factory Spatial Audio.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Presets\Factory Reflect.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Presets\Default Work Unit.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Modulators\Default Work Unit.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Mixing Sessions\Default Work Unit.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Metadata\Default Work Unit.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Manor_Wwise_Project.wproj" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Manor_Wwise_Project.crossover.wsettings" DateLow="1670093831" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Interactive Music Hierarchy\Music.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Game Parameters\Factory Motion.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Game Parameters\Default Work Unit.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Events\Music.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Events\Default Work Unit.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Effects\Factory Reflect.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Effects\Factory McDSP Effects.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Effects\Factory Mastering Suite.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Effects\Factory iZotope Filters.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Effects\Factory iZotope Dynamics.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Effects\Factory iZotope Delay.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Effects\Factory iZotope Box Modeler.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Effects\Factory Effects.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Effects\Factory Convolution Reverb Effects Stereo.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Effects\Factory Convolution Reverb Effects Ambisonics.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Effects\Factory Auro Headphone.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Effects\Default Work Unit.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Conversion Settings\Default Work Unit.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Control Surface Sessions\Default Work Unit.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Audio Devices\Default Work Unit.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Attenuations\Object Attenuation Unit.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Attenuations\Default Work Unit.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Actor-Mixer Hierarchy\ENVIRONMENT.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1670093673" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Clone Projects\Manor_Wwise_Project\Manor_Wwise_Project\Actor-Mixer Hierarchy\Ambience.wwu" DateLow="1670093673" DateHigh="0"/>
 </ValidationCache>

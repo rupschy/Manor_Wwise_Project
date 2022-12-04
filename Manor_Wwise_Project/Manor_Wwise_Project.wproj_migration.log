@@ -5,8 +5,6 @@ Project migration to XML Schema (XSD) version 107 is completed.
 Project migration to XML Schema (XSD) version 108 is completed.
 Project migration to XML Schema (XSD) version 109 is completed.
 Project migration to XML Schema (XSD) version 110 is completed.
-Project '\' had multiple values for property 'RemoveUnusedGeneratedFiles'. Value 'False' has been discarded.
-Project '\' had multiple values for property 'CopyLooseStreamedMedia'. Value 'True' has been discarded.
 The Plug-in 'Wwise Motion Source' was not found for '\Actor-Mixer Hierarchy\Factory Motion\Motion Factory Assets\Basic\Double Click\Down Double Click\Down Double Click Strong\Wwise Motion Source'. Edition and playback won't be available for this object.
 The source '\Actor-Mixer Hierarchy\Factory Motion\Motion Factory Assets\Basic\Double Click\Down Double Click\Down Double Click Strong\Wwise Motion Source' uses the source plugin 'Wwise Motion Source', which is not installed.
 The Plug-in 'Wwise Motion Source' was not found for '\Actor-Mixer Hierarchy\Factory Motion\Motion Factory Assets\Basic\Double Click\Down Double Click\Down Double Click Soft\Wwise Motion Source'. Edition and playback won't be available for this object.
@@ -853,4 +851,3 @@ The Plug-in 'Wwise Reflect' was not found for '\Effects\Factory Reflect\Wwise_Re
 '\Effects\Factory Reflect\Wwise_Reflect' uses the audio effect plugin 'Wwise Reflect', which is not installed.
 The Plug-in 'Wwise Reflect' was not found for '\Effects\Factory Reflect\Wwise_Reflect_Simplified'. Edition and playback won't be available for this object.
 '\Effects\Factory Reflect\Wwise_Reflect_Simplified' uses the audio effect plugin 'Wwise Reflect', which is not installed.
-Some new object properties have been added or obsolete properties deleted. The project file was updated. These changes will not have an impact on your project.
